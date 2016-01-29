@@ -1,0 +1,2549 @@
+1>------ Rebuild All started: Project: Ts182HtmlApp, Configuration: Debug Any CPU ------
+1>Build started 29/01/2016 22:24:00.
+1>Environment at start of build:
+1>ALLUSERSPROFILE = C:\ProgramData
+1>APPDATA = C:\Users\Martin\AppData\Roaming
+1>ChocolateyInstall = C:\Chocolatey
+1>CommonProgramFiles = C:\Program Files (x86)\Common Files
+1>CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+1>CommonProgramW6432 = C:\Program Files\Common Files
+1>COMPUTERNAME = ACER2009
+1>ComSpec = C:\Windows\system32\cmd.exe
+1>DNX_HOME = %USERPROFILE%\.dnx
+1>FP_NO_HOST_CHECK = NO
+1>HOMEDRIVE = C:
+1>HOMEPATH = \Users\Martin
+1>IIS_BIN = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE
+1>IIS_DRIVE = C:
+1>IIS_SITES_HOME = C:\Users\Martin\Documents\My Web Sites
+1>IIS_USER_HOME = C:\Users\Martin\Documents\IISExpress
+1>LOCALAPPDATA = C:\Users\Martin\AppData\Local
+1>LOGONSERVER = \\ACER2009
+1>MpConfig_ProductAppDataPath = C:\ProgramData\Microsoft\Windows Defender
+1>MpConfig_ProductCodeName = AntiSpyware
+1>MpConfig_ProductPath = C:\Program Files\Windows Defender
+1>MpConfig_ProductUserAppDataPath = C:\Users\Martin\AppData\Local\Microsoft\Windows Defender
+1>MpConfig_ReportingGUID = 57C53BF6-4CA2-4465-A622-52CE3F3F8130
+1>MSBuildLoadMicrosoftTargetsReadOnly = true
+1>NUMBER_OF_PROCESSORS = 4
+1>OS = Windows_NT
+1>Path = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Program Files (x86)\PC Connectivity Solution\;%CommonProgramFiles%\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec\MyWinLocker 3\x86;C:\Program Files (x86)\EgisTec\MyWinLocker 3\x64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Users\Martin\.dnx\runtimes\dnx-clr-win-x64.1.0.0-rc1-final\bin;C:\Users\Martin\.dnx\bin;C:\Ruby200x64\bin;D:\phantomjs-1.9.2-windows;D:\casperjs\batchbin;D:\Downloads\NetFx\Nuget;C:\Chocolatey\bin;C:\Users\Martin\AppData\Roaming\scriptcs;C:\Users\Martin\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Python27\Scripts;C:\Python27\;C:\Users\Martin\AppData\Roaming\npm
+1>PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+1>PkgDefApplicationConfigFile = C:\Users\Martin\AppData\Local\Microsoft\VisualStudio\14.0\devenv.exe.config
+1>PROCESSOR_ARCHITECTURE = x86
+1>PROCESSOR_ARCHITEW6432 = AMD64
+1>PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+1>PROCESSOR_LEVEL = 6
+1>PROCESSOR_REVISION = 170a
+1>ProgramData = C:\ProgramData
+1>ProgramFiles = C:\Program Files (x86)
+1>ProgramFiles(x86) = C:\Program Files (x86)
+1>ProgramW6432 = C:\Program Files
+1>PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1>PUBLIC = C:\Users\Public
+1>SESSIONNAME = Console
+1>SSH_AGENT_PID = 6240
+1>SSH_AUTH_SOCK = /tmp/ssh-AERxqn6832/agent.6832
+1>SystemDrive = C:
+1>SystemRoot = C:\Windows
+1>TEMP = C:\Users\Martin\AppData\Local\Temp
+1>TMP = C:\Users\Martin\AppData\Local\Temp
+1>USERDOMAIN = ACER2009
+1>USERNAME = Martin
+1>USERPROFILE = C:\Users\Martin
+1>VisualStudioDir = C:\Users\Martin\Documents\Visual Studio 2015
+1>VisualStudioEdition = Microsoft Visual Studio Community 2015
+1>VisualStudioVersion = 14.0
+1>VS100COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+1>VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+1>VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+1>VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+1>VSLANG = 1033
+1>windir = C:\Windows
+1>XNAGSShared = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+1>XNAGSv4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+1>_PTVS_PID = 14788
+1>
+1>Initial Properties:
+1>_AfterCompileWinFXInternalDependsOn = 
+1>        PrepareResourcesForSatelliteAssemblies;
+1>        MergeLocalizationDirectives;
+1>        AfterCompileWinFX
+1>    
+1>_CleanWPPIfNeedToDependsOn = 
+1>      ;
+1>      ValidateGlobalSettings;
+1>    
+1>_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+1>_CopyWebApplicationDependsOn = 
+1>      
+1>      
+1>      _CopyWebApplicationLegacy;
+1>    ;
+1>    ;
+1>    
+1>_CreatePackage = True
+1>_DebugSymbolsProduced = true
+1>_DeploymentApplicationManifestIdentity = Native.Ts182HtmlApp
+1>_DeploymentBuiltUpdateInterval = 0
+1>_DeploymentBuiltUpdateIntervalUnits = Days
+1>_DeploymentDeployManifestIdentity = Ts182HtmlApp.application
+1>_DeploymentFileMappingExtension = 
+1>_DeploymentTargetApplicationManifestFileName = Native.Ts182HtmlApp.manifest
+1>_DeploymentUrl = 
+1>_DeployOnBuild = False
+1>_DestinationIisAppPhysicalPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp_deploy
+1>_DocumentationFileProduced = false
+1>_EnableCleanOnBuildForMvcViews = true
+1>_GatherParamsDependsOn = 
+1>      ;
+1>      GetProjectWebProperties;
+1>      ImportParametersFiles;
+1>      TransformWebConfig;
+1>      ProfileTransformWebConfig;
+1>      AutoParameterizationWebConfigConnectionStrings;
+1>      AddDeclareParametersItems;
+1>      ImportPublishingParameterValues;
+1>      
+1>_GenerateAppxManifestDependsOn = ;_FixVCLibs120References
+1>_GenerateBindingRedirectsIntermediateAppConfig = obj\Debug\Ts182HtmlApp.csproj.Ts182HtmlApp.dll.config
+1>_GetChildProjectCopyToOutputDirectoryItems = true
+1>_LocalDBVersionToUseForSqlExpress = 11.0
+1>_MSDeployUserAgent = VS14.0:PublishDialog
+1>_MSDeployUserAgentSource = 14.0:PublishDialog
+1>_NuGetRuntimeIdentifierWithoutAot = win
+1>_OriginalConfiguration = Debug
+1>_OriginalPlatform = AnyCPU
+1>_PackageTempDir = obj\Debug\Package\PackageTmp
+1>_ProfileWebConfigTransformOutputParametersFile = obj\Debug\ProfileTransformWebConfig.parameters.xml
+1>_ProjectConfigFileExtension = .config
+1>_ProjectConfigFilePrefix = Web
+1>_ProjectDefaultTargets = Build
+1>_ProjectSpecificProjectJsonFile = Ts182HtmlApp.project.json
+1>_PTVS_PID = 14788
+1>_PublishProfileSet = False
+1>_RequireMCPass2ForMainAssembly = false
+1>_RequireMCPass2ForSatelliteAssemblyOnly = false
+1>_ResolveReferenceDependencies = false
+1>_ResourceNameInMainAssembly = Ts182HtmlApp.g.resources
+1>_SGenDllCreated = false
+1>_SGenDllName = Ts182HtmlApp.XmlSerializers.dll
+1>_SGenGenerateSerializationAssembliesConfig = Off
+1>_TransformWebConfigForAzureAuthenticationDependsOn = 
+1>      _TransformWebConfigForAzureAuthenticationCore;
+1>      _PostTransformWebConfigForAzureAuthentication;
+1>    
+1>_UseDefaultLinkExtensionValue = True
+1>_WebConfigsToAutoParmeterizeCsTransformOutputParametersFile = obj\Debug\CSAutoParameterize.parameters.xml
+1>_WebConfigTransformOutputParametersFile = obj\Debug\TransformWebConfig.parameters.xml
+1>_WebPublishProfileFileWillBeImported = false
+1>_WPPCleanTargets = 
+1>      ;
+1>      CleanWebsitesPackage;
+1>      CleanWebsitesWPPAllFilesInSingleFolder;
+1>      CleanWebPublishPipelineIntermediateOutput;
+1>    
+1>_WPPCopyWebApplicationDependsOn = 
+1>      ;
+1>      ;
+1>      CleanWebProjectOutputDir;
+1>      PipelineTransformPhase;
+1>    
+1>_WPPDefaultIntermediateOutputFullPath = D:\Ts\Ts18Vs2015Issue\obj\Debug\
+1>_WPPDefaultIntermediateOutputPath = obj\Debug\
+1>_WPPLastBuildInfoIntermediateOutput = _WPPLastBuildInfo.txt
+1>_WPPLastBuildInfoLocation = obj\Debug\_WPPLastBuildInfo.txt
+1>_WPPSupports = IISExpress;AspNetCompileMerge
+1>_WPPVersion = 2.0
+1>_WPPWebPublishMethodSupports = WebMSDeployPublish;WebPackagePublish
+1>AddAdditionalExplicitAssemblyReferences = true
+1>AddBuildInfoToAssembly = false
+1>AddContentPathToSourceManifestDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>      AddIis7ToSourceManifest;
+1>      AddIis6ToSourceManifest
+1>    
+1>AddDatabasesToSourceManifestAfterTargets = 
+1>      ;
+1>      AddIisSettingAndFileContentsToSourceManifest;
+1>    
+1>AddDatabasesToSourceManifestDependsOn = 
+1>      ;
+1>      CollectDatabasesToPublish;
+1>    
+1>AddDeclareParametersItemsDependsOn = 
+1>      ;
+1>      AddIisAndContentDeclareParametersItems;
+1>      AddDeclareParametersItemsForDatabaseScript;
+1>    
+1>AddDeclareParametersItemsForContentPathDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>      AddDeclareParametersItemsForIis7;
+1>      AddDeclareParametersItemsForIis6;
+1>    
+1>AddDeclareParametersItemsForDatabaseScriptDependsOn = 
+1>      ;
+1>      CollectDatabasesToPublish;
+1>    
+1>AddDeclareParametersItemsForIis6DependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>AddDeclareParametersItemsForIis7DependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>AddIis6ToSourceManifestDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>AddIis7ToSourceManifestDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>AddIisAndContentDeclareParametersItemsDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>      AddDeclareParametersItemsForContentPath;
+1>    
+1>AddIisSettingAndFileContentsToSourceManifestDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>      AddContentPathToSourceManifest;
+1>    
+1>AdditionalExplicitAssemblyReferences = System.Core;
+1>AfterAddContentPathToSourceManifest = 
+1>AfterAddDatabasesToSourceManifest = 
+1>AfterAddDeclareParametersItems = 
+1>AfterAddDeclareParametersItemsForContentPath = 
+1>AfterAddDeclareParametersItemsForDatabaseScript = 
+1>AfterAddDeclareParametersItemsForIis6 = 
+1>AfterAddDeclareParametersItemsForIis7 = 
+1>AfterAddIis6ToSourceManifest = 
+1>AfterAddIis7ToSourceManifest = 
+1>AfterAddIisAndContentDeclareParametersItems = 
+1>AfterAddIisSettingAndFileContentsToSourceManifest = 
+1>AfterWriteItemsToSourceManifest = 
+1>AllowedReferenceAssemblyFileExtensions = 
+1>      .winmd;
+1>      .dll;
+1>      .exe
+1>    
+1>AllowedReferenceRelatedFileExtensions = 
+1>      .pdb;
+1>      .xml;
+1>      .pri
+1>    
+1>ALLUSERSPROFILE = C:\ProgramData
+1>AlternativeProjectDirectory = 
+1>AlwaysCompileMarkupFilesInSeparateDomain = true
+1>AlwaysUseNumericalSuffixInItemNames = true
+1>AppConfig = Web.config
+1>APPDATA = C:\Users\Martin\AppData\Roaming
+1>AspNetCompileMerge = False
+1>AspNetTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\WebApplications\..\Web\
+1>AssemblyFoldersSuffix = AssemblyFoldersEx
+1>AssemblyName = Ts182HtmlApp
+1>AssemblySearchPaths = 
+1>      {CandidateAssemblyFiles};
+1>      ;
+1>      {HintPathFromItem};
+1>      {TargetFrameworkDirectory};
+1>      {Registry:Software\Microsoft\.NETFramework,v4.5.2,AssemblyFoldersEx};
+1>      {AssemblyFolders};
+1>      {GAC};
+1>      {RawFileName};
+1>      bin\
+1>    
+1>AssignTargetPathsDependsOn = 
+1>AuthType = Basic
+1>AutoParameterizationWebConfigConnectionStrings = True
+1>AutoParameterizationWebConfigConnectionStringsCoreDependsOn = 
+1>AutoParameterizationWebConfigConnectionStringsDependsOn = 
+1>      ;
+1>      ;
+1>      PipelineTransformPhase;
+1>      PreAutoParameterizationWebConfigConnectionStrings;
+1>      AutoParameterizationWebConfigConnectionStringsCore;
+1>      PostAutoParameterizationWebConfigConnectionStrings;
+1>    
+1>AutoParameterizationWebConfigConnectionStringsIntermediateOutput = CSAutoParameterize
+1>AutoParameterizationWebConfigConnectionStringsLocation = obj\Debug\CSAutoParameterize
+1>AutoParameterizationWebConfigCSNoDefaultValue = False
+1>AutoSqlScriptSourceTransacted = 
+1>AutoUnifyAssemblyReferences = false
+1>AvailablePlatforms = Any CPU,x86,x64
+1>BaseIntermediateOutputPath = obj\
+1>BaseNuGetRuntimeIdentifier = win
+1>BeforeAddContentPathToSourceManifest = 
+1>BeforeAddDatabasesToSourceManifest = 
+1>BeforeAddDeclareParametersItems = 
+1>BeforeAddDeclareParametersItemsForContentPath = 
+1>BeforeAddDeclareParametersItemsForDatabaseScript = 
+1>BeforeAddDeclareParametersItemsForIis6 = 
+1>BeforeAddDeclareParametersItemsForIis7 = 
+1>BeforeAddIis6ToSourceManifest = 
+1>BeforeAddIis7ToSourceManifest = 
+1>BeforeAddIisAndContentDeclareParametersItems = 
+1>BeforeAddIisSettingAndFileContentsToSourceManifest = 
+1>BeforeWriteItemsToSourceManifest = 
+1>BuildCompileAction = Build
+1>BuildDependsOn = 
+1>      EntityDeploy;
+1>      
+1>      BeforeBuild;
+1>      CoreBuild;
+1>      AfterBuild
+1>    
+1>    
+1>BuildGenerateSourcesAction = Build
+1>BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo
+1>BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+1>BuildingInsideVisualStudio = true
+1>BuildingOutOfProcess = true
+1>BuildingProject = false
+1>BuildInParallel = true
+1>BuildLinkAction = Build
+1>BuildProjectReferences = true
+1>BuildSystem = MSBuild
+1>BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+1>BuiltProjectOutputGroupDependsOn = 
+1>      CompileTypeScript;
+1>      PrepareForBuild;
+1>    
+1>CfgPropertyPagesGuidsAddCSharp = {d4683cae-88c4-4b85-863d-ac8014f3ba36}
+1>CfgPropertyPagesGuidsAddTypeScript = {d4683cae-88c4-4b85-863d-ac8014f3ba36}
+1>CfgPropertyPagesGuidsAddVB = {d4683cae-88c4-4b85-863d-ac8014f3ba36}
+1>CheckAndCleanMSDeployPackageIfNeededDependsOn = 
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>CheckSqlScriptForUnsupportedCommands = True
+1>ChocolateyInstall = C:\Chocolatey
+1>CleanDependsOn = 
+1>      
+1>      
+1>      
+1>      
+1>      BeforeClean;
+1>      UnmanagedUnregistration;
+1>      CoreClean;
+1>      CleanReferencedProjects;
+1>      CleanPublishFolder;
+1>      AfterClean
+1>    ;
+1>      EntityClean;
+1>    ;
+1>      CleanWebProjectOutputDir;
+1>    ;
+1>      
+1>      ;
+1>      CleanWebsitesPackage;
+1>      CleanWebsitesWPPAllFilesInSingleFolder;
+1>      CleanWebPublishPipelineIntermediateOutput;
+1>    ;
+1>    ;
+1>      TypeScriptClean
+1>    
+1>CleanFile = Ts182HtmlApp.csproj.FileListAbsolute.txt
+1>CleanWebProjectOutputDir = False
+1>CleanWebProjectOutputDirDependsOn = 
+1>CleanWebPublishPipelineIntermediateOutputDependsOn = 
+1>CleanWebsitesPackageCoreDependsOn = 
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>CleanWebsitesPackageDependsOn = 
+1>      GenerateMsDeployManifestSettings;
+1>      CleanWebsitesPackageCore;
+1>    
+1>CleanWebsitesWPPAllFilesInSingleFolderDependsOn = 
+1>CleanWPPAllFilesInSingleFolder = False
+1>CodeAnalysisApplyLogFileXsl = false
+1>CodeAnalysisFailOnMissingRules = false
+1>CodeAnalysisForceOutput = true
+1>CodeAnalysisGenerateSuccessFile = true
+1>CodeAnalysisIgnoreGeneratedCode = true
+1>CodeAnalysisIgnoreInvalidTargets = true
+1>CodeAnalysisIgnoreMissingIndirectReferences = false
+1>CodeAnalysisInputAssembly = bin\Ts182HtmlApp.dll
+1>CodeAnalysisLogFile = bin\Ts182HtmlApp.dll.CodeAnalysisLog.xml
+1>CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cs
+1>CodeAnalysisOutputToConsole = false
+1>CodeAnalysisOverrideRuleVisibilities = false
+1>CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\
+1>CodeAnalysisQuiet = false
+1>CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+1>CodeAnalysisRuleSet = MinimumRecommendedRules.ruleset
+1>CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets
+1>CodeAnalysisSaveMessagesToReport = Active
+1>CodeAnalysisSearchGlobalAssemblyCache = true
+1>CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\
+1>CodeAnalysisSucceededFile = bin\Ts182HtmlApp.dll.lastcodeanalysissucceeded
+1>CodeAnalysisSummary = false
+1>CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+1>CodeAnalysisTimeout = 120
+1>CodeAnalysisTreatWarningsAsErrors = false
+1>CodeAnalysisUpdateProject = false
+1>CodeAnalysisUseTypeNameInSuppression = true
+1>CodeAnalysisVerbose = false
+1>CollectDatabasesToPublishDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      ProcessPublishDatabaseSettings;
+1>      _CheckDBProvidersAreAvailableAtServer;
+1>      ParseSQLScriptForMSDeployParameters;
+1>      HandleEFCodeFirstDataMigration;
+1>      InsertEFCodeFirstDeployWebCofig;
+1>    
+1>CollectFilesForProfileTransformWebConfigsDependsOn = 
+1>      ;
+1>      ;
+1>      PipelineCollectFilesPhase;
+1>    
+1>CollectFilesFrom_binDeployableAssembliesDependsOn = 
+1>      ;
+1>      ;
+1>      _CopyBinDeployableAssemblies;
+1>    
+1>CollectFilesFrom_SGenDllCreatedDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFrom_SourceItemsToCopyToOutputDirectoryDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFrom_WebApplicationSilverlightXapFilesDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromAddModulesDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromAllExtraReferenceFilesDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromContentDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromDocFileItemDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromIntermediateAssemblyDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromIntermediateSatelliteAssembliesWithTargetPathDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CollectFilesFromReferenceDependsOn = 
+1>      ;
+1>      ;
+1>      ResolveProjectReferences;
+1>      ResolveAssemblyReferences;
+1>    
+1>CollectWebConfigsToTransformDependsOn = 
+1>      ;
+1>      ;
+1>      PipelineCollectFilesPhase;
+1>    
+1>CommonProgramFiles = C:\Program Files (x86)\Common Files
+1>CommonProgramW6432 = C:\Program Files\Common Files
+1>CommonTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets
+1>CommonXamlResourcesDirectory = C:\Program Files (x86)\MSBuild\14.0\bin\\
+1>CompileDependsOn = 
+1>      CompileTypeScript;
+1>      
+1>        
+1>      ResolveReferences;
+1>      ResolveKeySource;
+1>      SetWin32ManifestProperties;
+1>      _GenerateCompileInputs;
+1>      BeforeCompile;
+1>      _TimeStampBeforeCompile;
+1>      CoreCompile;
+1>      _TimeStampAfterCompile;
+1>      AfterCompile;
+1>    ;
+1>        _AfterCompileWinFXInternal
+1>    ;
+1>    
+1>CompileLicxFilesDependsOn = 
+1>CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+1>CompileTypeScriptDependsOn = 
+1>      ;
+1>      PreComputeCompileTypeScript;
+1>    
+1>ComputeIntermediateSatelliteAssembliesDependsOn = 
+1>      CreateManifestResourceNames
+1>    
+1>COMPUTERNAME = ACER2009
+1>ComReferenceExecuteAsTool = false
+1>ComReferenceNoClassMembers = false
+1>ComSpec = C:\Windows\system32\cmd.exe
+1>Configuration = Debug
+1>ConfigurationName = Debug
+1>ConsiderPlatformAsProcessorArchitecture = true
+1>ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+1>ContinueOnError = false
+1>CopyAllFilesToSingleFolderForMsdeployDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CopyAllFilesToSingleFolderForPackageDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>CopyNuGetImplementations = true
+1>CoreBuildDependsOn = 
+1>      BuildOnlySettings;
+1>      PrepareForBuild;
+1>      PreBuildEvent;
+1>      ResolveReferences;
+1>      PrepareResources;
+1>      ResolveKeySource;
+1>      Compile;
+1>      ExportWindowsMDFile;
+1>      UnmanagedUnregistration;
+1>      GenerateSerializationAssemblies;
+1>      CreateSatelliteAssemblies;
+1>      GenerateManifests;
+1>      GetTargetPath;
+1>      PrepareForRun;
+1>      UnmanagedRegistration;
+1>      IncrementalClean;
+1>      PostBuildEvent
+1>    
+1>CoreCleanDependsOn = 
+1>CoreCompileDependsOn = 
+1>        GenerateCompiledExpressionsTempFile;
+1>        
+1>        DesignTimeXamlMarkupCompilation;
+1>        
+1>          DesignTimeMarkupCompilation;
+1>          _ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+1>      
+1>    
+1>    
+1>CoreResGenDependsOn = 
+1>CreateCustomManifestResourceNamesDependsOn = 
+1>CreateHardLinksForCopyAdditionalFilesIfPossible = false
+1>CreateManifestResourceNamesDependsOn = 
+1>CreatePackageOnPublish = false
+1>CreateSatelliteAssembliesDependsOn = 
+1>      _GenerateSatelliteAssemblyInputs;
+1>      ComputeIntermediateSatelliteAssemblies;
+1>      GenerateSatelliteAssemblies
+1>    
+1>CSharpCoreTargetsPath = Microsoft.CSharp.Core.targets
+1>CSharpTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets
+1>CurrentSolutionConfigurationContents = <SolutionConfiguration>
+1><ProjectConfiguration Project="{0215271e-ee8b-48ed-8354-072ebaa3f838}" AbsolutePath="D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj">Debug|AnyCPU</ProjectConfiguration>
+1></SolutionConfiguration>
+1>CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.props
+1>CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.targets
+1>CustomAfterMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.CSharp.targets
+1>CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.props
+1>CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.targets
+1>CustomBeforeMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.CSharp.targets
+1>DatabaseDeployIntermediateOutputPath = obj\Debug\Database
+1>DatabaseDeployIntermediateRelativePath = Database
+1>DbDacFxPreviewDependsOn = 
+1>      
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>    ;
+1>      RemoteDbDacFxPreview;
+1>    
+1>DbFullSqlPreviewDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>    
+1>DebugSymbols = true
+1>DebugSymbolsProjectOutputGroupDependsOn = 
+1>DebugType = full
+1>DefaultDeployIisAppPath = Default Web Site/Ts182HtmlApp_deploy
+1>DefaultDeployIisAppPhysicalPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp_deploy
+1>DefaultDeployIisRootAppPath = Ts182HtmlApp_deploy
+1>DefaultLanguageSourceExtension = .cs
+1>DefaultMsDeployAltSuffix = _deploy
+1>DefaultMSDeployDestinationApplicationName = Ts182HtmlApp
+1>DefaultMSDeployDestinationSite = Default Web Site
+1>DefaultPackageFileName = Ts182HtmlApp.zip
+1>DefaultPackageOutputDir = obj\Debug\Package
+1>DeferredValidationErrorsFileName = obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+1>DefineCommonCapabilities = true
+1>DefineCommonItemSchemas = true
+1>DefineCommonReferenceSchemas = true
+1>DelaySign = 
+1>DeployAsIisApp = true
+1>DeployDefaultTarget = Package
+1>DeployDefaultTargetFrameworkVersion = v4.5.2
+1>DeployEnable32bitAppOnWin64 = 
+1>DeployEncryptKey = 
+1>DeployIisAppPath = 
+1>DeployIisAppPhysicalPath = 
+1>DeployManagedPipelineMode = 
+1>DeployManagedRuntimeVersion = 
+1>DeploymentType = Installed
+1>DeployOnBuild = False
+1>DeployOnBuildDefault = False
+1>DeployParameterApp_DataWritePermission = Add write permission to App_Data Folder
+1>DeployParameterAutoDescriptionbyTags = True
+1>DeployParameterIISAppConnectionStringDescription = 
+1>DeployParameterIISAppName = IIS Web Application Name
+1>DeployParameterIISAppNameDescription = 
+1>DeployParameterIISAppPhysicalPath = Web Application Physical Path
+1>DeployParameterIISAppPhysicalPathDescription = 
+1>DeployParameterIISAppPoolName = IIS Web Application Pool Name
+1>DeployParameterIISAppPoolNameDescription = 
+1>DeployParameterSqlScriptVariablesDescription = 
+1>DeployTarget = Package
+1>DesignTimeIntermediateOutputPath = obj\Debug\InProcessTempFiles\
+1>DesignTimeResolveAssemblyReferencesDependsOn = 
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      ResolveReferences
+1>    
+1>DestinationIisVersion = 
+1>DestinationUseIis = 
+1>DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\
+1>Disable_CopyWebApplication = False
+1>DisableAllVSGeneratedMSDeployParameter = False
+1>DisableLinkInCopyWebApplicaton = False
+1>DNX_HOME = %USERPROFILE%\.dnx
+1>DocumentationProjectOutputGroupDependsOn = 
+1>EmbeddedWin32Manifest = 
+1>EnableCollectLinkFilesInProject = True
+1>EnableExcludeFilesByExtension = true
+1>EnableMSDeployAppOffline = false
+1>EnableMSDeployBackup = false
+1>EnableOptimisticParameterDefaultValue = True
+1>EnablePackageProcessLoggingAndAssert = False
+1>EnableProjectDeployParameterPrefix = False
+1>EnableSqlScriptVariableParameterize = True
+1>EnableWebPublishProfileFile = True
+1>EntityDeployDependsOn = 
+1>EntityDeployIntermediateResourcePath = obj\Debug\edmxResourcesToEmbed\
+1>ErrorEndLocation = true
+1>ExcludeApp_Data = False
+1>ExcludeApp_DataDependsOn = 
+1>ExcludeFilesByExtensionDependsOn = ;
+1>ExcludeFilesFromPackage = True
+1>ExcludeFilesFromPackageDependsOn = 
+1>      ;
+1>      ExcludeApp_Data;
+1>      ExcludeGeneratedDebugSymbol;
+1>      ExcludeXmlAssemblyFiles;
+1>      ExcludeFilesByExtension;
+1>    
+1>ExcludeGeneratedDebugSymbol = False
+1>ExcludeGeneratedDebugSymbolDependsOn = 
+1>ExcludeLinkFilesInProject = False
+1>ExcludeTransformAssistFilesFromPublish = True
+1>ExcludeXmlAssemblyFiles = true
+1>ExcludeXmlAssemblyFilesDependsOn = 
+1>      @(ExcludeXmlAssemblyFilesDependsOn);
+1>    
+1>ExpandSDKAllowedReferenceExtensions = 
+1>      .winmd;
+1>      .dll
+1>    
+1>ExpandSDKReferencesDependsOn = 
+1>      ResolveSDKReferences
+1>    
+1>FilesToIncludeForPublish = OnlyFilesToRunTheApp
+1>FilesToIncludeTargetFile = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\\CollectFiles\Microsoft.Web.Publishing.OnlyFilesToRunTheApp.targets
+1>FindInvalidProjectReferencesDependsOn = 
+1>      GetReferenceTargetPlatformMonikers
+1>    
+1>FP_NO_HOST_CHECK = NO
+1>Framework20Dir = @(_TargetFramework20DirectoryItem)
+1>Framework30Dir = @(_TargetFramework30DirectoryItem)
+1>Framework35Dir = @(_TargetFramework35DirectoryItem)
+1>Framework40Dir = @(_TargetFramework40DirectoryItem)
+1>FrameworkDir = @(_TargetFramework40DirectoryItem)
+1>FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2
+1>FrameworkRegistryBase = Software\Microsoft\.NETFramework
+1>FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+1>FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+1>FullReferenceAssemblyNames = Full
+1>GenerateBuildInfoConfigFile = false
+1>GenerateCompiledExpressionsTempFilePathForEditing = obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+1>GenerateCompiledExpressionsTempFilePathForTypeInfer = obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+1>GenerateCompiledExpressionsTempFilePathForValidation = obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+1>GeneratedFileExtension = .g.cs
+1>GenerateGlobalPublishSettingDependsOn = 
+1>      GetProjectWebProperties;
+1>      ValidateGlobalSettings;
+1>    
+1>GenerateManifestsDependsOn = 
+1>      SetWin32ManifestProperties;
+1>      GenerateApplicationManifest;
+1>      GenerateDeploymentManifest
+1>    
+1>GenerateMsdeployManifestFilesDependsOn = 
+1>      ;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      GenerateMsDeployManifestSettings;
+1>    
+1>GenerateMsDeployManifestSettingsDependsOn = 
+1>GenerateSampleDeployScript = True
+1>GenerateSampleDeployScriptAfterTargets = 
+1>      ;
+1>      PackageUsingManifest;
+1>    
+1>GenerateSampleDeployScriptDependsOn = 
+1>      GetMSDeployInstalledVersionPath;
+1>      GenerateMsDeployManifestSettings;
+1>      GenerateMsdeployManifestFiles;
+1>    
+1>GenerateSampleDeployScriptLocation = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).deploy.cmd')
+1>GenerateSampleDeployScriptReadMeFileName = @(_MSDeployPackageLocation->'%(FileName).deploy-readme.txt')
+1>GenerateSampleDeployScriptReadMeLocation = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).deploy-readme.txt')
+1>GenerateSampleParametersValueFileName = @(_MSDeployPackageLocation->'%(FileName).SetParameters.xml')
+1>GenerateSampleParametersValueLocation = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).SetParameters.xml')
+1>GenerateSampleParametersValueLocationDefault = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).SetParameters.xml')
+1>GenerateTargetFrameworkAttribute = true
+1>GetCopyToOutputDirectoryItemsDependsOn = 
+1>      
+1>      AssignTargetPaths;
+1>      _SplitProjectReferencesByFileExistence
+1>    ;
+1>      GetTypeScriptCopyToOutputDirectoryItems;
+1>    
+1>GetFrameworkPathsDependsOn = 
+1>GetMSDeployInstalledVersionPathDependsOn = 
+1>GetProjectWebPropertiesDependsOn = 
+1>      _CheckPublishToolsUpToDate
+1>    
+1>GetReferenceAssemblyPathsDependsOn = 
+1>        ;
+1>        GetWinFXPath
+1>    
+1>GetTargetPathDependsOn = 
+1>GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+1>HandleEFCodeFirstDataMigrationDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      ProcessPublishDatabaseSettings;
+1>    
+1>HighEntropyVA = true
+1>HOMEDRIVE = C:
+1>HOMEPATH = \Users\Martin
+1>HostInBrowser = false
+1>IgnoreDeployManagedRuntimeVersion = False
+1>IIS6ParameterApplicationPool = False
+1>IISExpressAnonymousAuthentication = 
+1>IISExpressSSLPort = 
+1>IISExpressUseClassicPipelineMode = 
+1>IISExpressWindowsAuthentication = 
+1>ImplicitlyExpandDesignTimeFacades = true
+1>ImplicitlyExpandDesignTimeFacadesDependsOn = 
+1>      ;
+1>      GetReferenceAssemblyPaths
+1>    
+1>ImportByWildcardAfterMicrosoftCommonProps = true
+1>ImportByWildcardAfterMicrosoftCommonTargets = true
+1>ImportByWildcardAfterMicrosoftCSharpTargets = true
+1>ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+1>ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+1>ImportByWildcardAfterMicrosoftWebPublishingMSDeployCommonTargets = true
+1>ImportByWildcardAfterMicrosoftWebPublishingOnlyFilesToRunTheAppTargets = true
+1>ImportByWildcardAfterMicrosoftWebPublishingTargets = true
+1>ImportByWildcardBeforeMicrosoftCommonProps = true
+1>ImportByWildcardBeforeMicrosoftCommonTargets = true
+1>ImportByWildcardBeforeMicrosoftCSharpTargets = true
+1>ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+1>ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+1>ImportByWildcardBeforeMicrosoftWebPublishingMSDeployCommonTargets = true
+1>ImportByWildcardBeforeMicrosoftWebPublishingOnlyFilesToRunTheAppTargets = true
+1>ImportByWildcardBeforeMicrosoftWebPublishingTargets = true
+1>ImportParametersFile_DisableEscapeMSBuildVariable = False
+1>ImportParametersFiles = True
+1>ImportProfileParametersFiles = True
+1>ImportProjectParametersFiles = True
+1>ImportPublishingParameterValues = True
+1>ImportUserLocationsByWildcardAfterMicrosoftCommonProps = true
+1>ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+1>ImportUserLocationsByWildcardAfterMicrosoftCSharpTargets = true
+1>ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+1>ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+1>ImportUserLocationsByWildcardBeforeMicrosoftCommonProps = true
+1>ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+1>ImportUserLocationsByWildcardBeforeMicrosoftCSharpTargets = true
+1>ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+1>ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+1>ImportXamlTargets = true
+1>IncludeFrameworkReferencesFromNuGet = true
+1>IncludeIisSettings = False
+1>IncludeServerNameInBuildInfo = false
+1>IncludeSetAclProviderOnDestination = True
+1>InsertAdditionalWebCofigConnectionStrings = True
+1>InsertAdditionalWebCofigConnectionStringsBeforeTargets = 
+1>      ;
+1>      PreAutoParameterizationWebConfigConnectionStrings;
+1>      AutoParameterizationWebConfigConnectionStrings;
+1>    
+1>InsertAdditionalWebCofigConnectionStringsCoreDependsOn = 
+1>InsertAdditionalWebCofigConnectionStringsDependsOn = 
+1>      ;
+1>      ;
+1>      TransformWebConfig;
+1>      ProfileTransformWebConfig;
+1>      PreInsertAdditionalWebCofigConnectionStrings;
+1>      InsertAdditionalWebCofigConnectionStringsCore;
+1>      PostInsertAdditionalWebCofigConnectionStrings;
+1>    
+1>InsertAdditionalWebCofigConnectionStringsIntermediateOutput = InsertAdditionalCS
+1>InsertAdditionalWebCofigConnectionStringsLocation = obj\Debug\InsertAdditionalCS
+1>InsertAdditionalWebConfigConnectionStringOnlyInRoot = True
+1>InsertAdditionalWebConfigConnectionStringProviderName = System.Data.SqlClient
+1>InsertEFCodeFirstDeployWebCofig = True
+1>InsertEFCodeFirstDeployWebCofigBeforeTargets = 
+1>      ;
+1>      PreAutoParameterizationWebConfigConnectionStrings;
+1>      AutoParameterizationWebConfigConnectionStrings;
+1>      PipelineMsdeploySpecificTransformPhase;
+1>    
+1>InsertEFCodeFirstDeployWebCofigCoreDependsOn = 
+1>      HandleEFCodeFirstDataMigration;
+1>      ProfileTransformWebConfig;
+1>      PreInsertEFCodeFirstDeployWebCofig;
+1>    
+1>InsertEFCodeFirstDeployWebCofigDependsOn = 
+1>      ;
+1>      ;
+1>      TransformWebConfig;
+1>      HandleEFCodeFirstDataMigration;
+1>      ProfileTransformWebConfig;
+1>      PreInsertEFCodeFirstDeployWebCofig;
+1>      InsertEFCodeFirstDeployWebCofigCore;
+1>      PostInsertEFCodeFirstDeployWebCofig;
+1>    
+1>InsertEFCodeFirstDeployWebCofigIntermediateOutput = InsertEFCodeFirstDeploy
+1>InsertEFCodeFirstDeployWebCofigLocation = obj\Debug\InsertEFCodeFirstDeploy
+1>IntermediateOutputPath = obj\Debug\
+1>IsLibrary = true
+1>IsWPPAllFilesInSingleFolder = False
+1>Language = C#
+1>LoadTimeSensitiveProperties = 
+1>      ;
+1>    
+1>LoadTimeSensitiveTargets = 
+1>      ;
+1>      XamlMarkupCompilePass1;
+1>    
+1>LOCALAPPDATA = C:\Users\Martin\AppData\Local
+1>LocalDbDacFxPreviewDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      ValidateDbDacFxPreviewSettings;
+1>    
+1>LocalizationDirectivesToLocFile = None
+1>LOGONSERVER = \\ACER2009
+1>MarkApp_DataWritableOnDestination = True
+1>MarkupCompilePass2ForMainAssemblyDependsOn = 
+1>                     GenerateTemporaryTargetAssembly;
+1>                     MarkupCompilePass2;
+1>                     AfterMarkupCompilePass2;
+1>                     CleanupTemporaryTargetAssembly
+1>       
+1>MarkWebConfigAssistFilesAsExcludeDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>MaxTargetPath = 100
+1>MergedOutputCodeAnalysisFile = vc.nativecodeanalysis.all.xml
+1>Microsoft_Web_Publishing_MSDeploy_Common_targets = Deploy\Microsoft.Web.Publishing.MSDeploy.Common.targets
+1>Microsoft_Web_Publishing_MSDeploy_Common_targets_Imported = True
+1>MicrosoftCommonPropsHasBeenImported = true
+1>MpConfig_ProductAppDataPath = C:\ProgramData\Microsoft\Windows Defender
+1>MpConfig_ProductCodeName = AntiSpyware
+1>MpConfig_ProductPath = C:\Program Files\Windows Defender
+1>MpConfig_ProductUserAppDataPath = C:\Users\Martin\AppData\Local\Microsoft\Windows Defender
+1>MpConfig_ReportingGUID = 57C53BF6-4CA2-4465-A622-52CE3F3F8130
+1>MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets
+1>MSBuildAllProjects = ;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props;D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Xaml.targets
+1>MSBuildAssemblyVersion = 14.0
+1>MSBuildBinPath = C:\Program Files (x86)\MSBuild\14.0\bin
+1>MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+1>MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+1>MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+1>MSBuildFrameworkToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+1>MSBuildFrameworkToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+1>MSBuildFrameworkToolsRoot = C:\Windows\Microsoft.NET\Framework\
+1>MSBuildLoadMicrosoftTargetsReadOnly = true
+1>MSBuildNodeCount = 4
+1>MSBuildProgramFiles32 = C:\Program Files (x86)
+1>MSBuildProjectDefaultTargets = Build
+1>MSBuildProjectDirectory = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp
+1>MSBuildProjectDirectoryNoRoot = Ts\Ts18Vs2015Issue\Ts182HtmlApp
+1>MSBuildProjectExtension = .csproj
+1>MSBuildProjectFile = Ts182HtmlApp.csproj
+1>MSBuildProjectFullPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj
+1>MSBuildProjectName = Ts182HtmlApp
+1>MSBuildRuntimeVersion = 4.0.30319
+1>MSBuildStartupDirectory = D:\Ts\Ts18Vs2015Issue
+1>MSBuildToolsPath = C:\Program Files (x86)\MSBuild\14.0\bin
+1>MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\14.0\bin\
+1>MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+1>MSBuildToolsVersion = 14.0
+1>MSBuildUserExtensionsPath = C:\Users\Martin\AppData\Local\Microsoft\MSBuild
+1>MsDeployDatabaseTag = SqlConnectionString
+1>MSDeployEnableWebConfigEncryptRule = False
+1>MSDeployPublishDependsOn = 
+1>      GenerateGlobalPublishSetting;
+1>      _CheckAzureNet46Support;      
+1>      ValidateGlobalPackageSetting;
+1>      GenerateMsDeployManifestSettings;
+1>      GenerateMsdeployManifestFiles;
+1>      GenerateSkipRuleForAppData;
+1>      ImportPublishingParameterValues;
+1>      PipelineMsdeploySpecificTransformPhase;
+1>      Package;
+1>    
+1>MSDeployPublishMethod = WMSVC
+1>MsDeployServiceUrl = 
+1>MsDeploySqlCommandVariableKind = SqlCommandVariable
+1>MsdeploySqlUnsupportedCommand = :Connect;:!!;:Exit;:Help;:r;:Quit;
+1>MSDeployUseChecksum = false
+1>MSDeployWebConfigEncryptProvider = 
+1>MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TeamTest\Microsoft.TeamTest.targets
+1>NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props
+1>NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+1>NetfxCoreRuntimeSettingsTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.Settings.targets
+1>NetfxCoreRuntimeTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.Net.CoreRuntime.targets
+1>NoCompilerStandardLib = true
+1>NormalizePublishSettings = true
+1>NuGetProps = C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.props
+1>NuGetRuntimeIdentifier = win
+1>NuGetTargetFrameworkMonikerToInject = .NETCore,Version=v5.0
+1>NuGetTargetMoniker = .NETFramework,Version=v4.5.2
+1>NuGetTargetMonikerToInject = .NETCore,Version=v5.0
+1>NuGetTargets = C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets
+1>NUMBER_OF_PROCESSORS = 4
+1>OnAfter_CopyWebApplication = 
+1>OnAfterGenerateMsdeployManifestFiles = 
+1>      ;
+1>      AddDeclareParametersItems;
+1>      CheckAndCleanMSDeployPackageIfNeeded;
+1>    
+1>OnAfterPipelineCollectFilesPhase = 
+1>      ;
+1>      ExcludeFilesFromPackage;
+1>      ImportParametersFiles;
+1>    
+1>OnBefore_CopyWebApplication = 
+1>      
+1>      _CopyWebApplicationLegacy;
+1>    ;
+1>    
+1>OnBefore_CopyWebApplicationDefault = 
+1>      _CopyWebApplicationLegacy;
+1>    
+1>OnBeforePipelineCollectFilesPhase = 
+1>      
+1>      ;
+1>      _CleanWPPIfNeedTo;
+1>    ;
+1>      CopySilverlightApplications;
+1>    
+1>OS = Windows_NT
+1>OSVersion = 5.1.2600.0
+1>OutDir = bin\
+1>OutputPath = bin\
+1>OutputType = Library
+1>OverwriteReadOnlyFiles = false
+1>PackageArchiveRootDir = obj\Debug\Package
+1>PackageAsSingleFile = True
+1>PackageDependsOn = 
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      ImportPublishingParameterValues;
+1>      PipelineMsdeploySpecificTransformPhase;
+1>    
+1>PackageDisableLinks = AppPoolExtension;ContentExtension;CertificateExtension
+1>PackageEnableLinks = 
+1>PackageFileName = obj\Debug\Package\Ts182HtmlApp.zip
+1>PackageLocation = 
+1>PackageLogDir = obj\Debug\Package\Log
+1>PackageParametersFile = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).Package.Parameters.xml')
+1>PackageSourceManifest = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).SourceManifest.xml')
+1>PackageTempRootDir = obj\Debug\Package
+1>PackageTraceLevel = Info
+1>PackageUsingManifestDependsOn = 
+1>      ;
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      GenerateMsDeployManifestSettings;
+1>      GenerateMsdeployManifestFiles;
+1>      GenerateSkipRuleForAppData;
+1>    
+1>ParameterApplicationPool = True
+1>ParameterizeProfileTransformWebConfigCoreDependsOn = 
+1>      PreProfileTransformWebConfig;
+1>    
+1>ParameterizeTransformWebConfigCoreDependsOn = 
+1>      PreTransformWebConfig;
+1>    
+1>ParameterizeTransformXmlUseXPath = True
+1>ParseSQLScriptForMSDeployParametersDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      ProcessPublishDatabaseSettings;
+1>    
+1>Path = C:\Program Files (x86)\PC Connectivity Solution\;%CommonProgramFiles%\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec\MyWinLocker 3\x86;C:\Program Files (x86)\EgisTec\MyWinLocker 3\x64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Users\Martin\.dnx\runtimes\dnx-clr-win-x64.1.0.0-rc1-final\bin;C:\Users\Martin\.dnx\bin;C:\Ruby200x64\bin;D:\phantomjs-1.9.2-windows;D:\casperjs\batchbin;D:\Downloads\NetFx\Nuget;C:\Chocolatey\bin;C:\Users\Martin\AppData\Roaming\scriptcs;C:\Users\Martin\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Python27\Scripts;C:\Python27\;C:\Users\Martin\AppData\Roaming\npm
+1>PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+1>PipelineCollectFilesPhaseDependsOn = 
+1>      
+1>      ;
+1>      _CleanWPPIfNeedTo;
+1>    ;
+1>      ;
+1>      WPPCopyWebApplicaitonPipelineCircularDependencyError;
+1>      ProcessItemToExcludeFromDeployment;
+1>      GetProjectWebProperties;
+1>      ValidateGlobalSettings;
+1>      ValidateGlobalPackageSetting;
+1>      
+1>      
+1>      ;
+1>      BeforeBuild;
+1>      BuildOnlySettings;
+1>      ResolveReferences;
+1>      PrepareResourceNames;
+1>      ComputeIntermediateSatelliteAssemblies;
+1>      GetCopyToOutputDirectoryItems;
+1>      _SGenCheckForOutputs;
+1>    ;
+1>      AfterBuild;
+1>    ;
+1>      
+1>      
+1>            ;
+1>            CollectFilesFromBuildInfoConfigFile;
+1>        ;
+1>      CollectFilesFromIntermediateAssembly;
+1>      CollectFilesFromContent;
+1>      CollectFilesFromAddModules;
+1>      CollectFilesFrom_SGenDllCreated;
+1>      CollectFilesFromIntermediateSatelliteAssembliesWithTargetPath;
+1>      CollectFilesFromReference;
+1>      CollectFilesFromAllExtraReferenceFiles;
+1>      CollectFilesFrom_SourceItemsToCopyToOutputDirectory;
+1>      CollectFilesFromDocFileItem;
+1>      CollectFilesFrom_WebApplicationSilverlightXapFiles;
+1>      CollectFilesFrom_binDeployableAssemblies;
+1>    ;
+1>    
+1>PipelineCopyAllFilesToOneFolderForMsdeployDependsOn = 
+1>      ;
+1>      ;
+1>      PipelineTransformPhase;
+1>      CopyAllFilesToSingleFolderForMsdeploy;
+1>    
+1>PipelineDependsOn = 
+1>      
+1>      ;
+1>      BeforeBuild;
+1>      BuildOnlySettings;
+1>      ResolveReferences;
+1>      PrepareResourceNames;
+1>      ComputeIntermediateSatelliteAssemblies;
+1>      GetCopyToOutputDirectoryItems;
+1>      _SGenCheckForOutputs;
+1>    ;
+1>      AfterBuild;
+1>    
+1>PipelineDependsOnBuild = False
+1>PipelineDeployPhaseAfterTargets = 
+1>      ;
+1>    
+1>PipelineDeployPhaseDependsOn = 
+1>      ;
+1>      ;
+1>      Package;
+1>    
+1>PipelineMsdeploySpecificTransformPhaseBeforeTargets = 
+1>      ;
+1>      CopyAllFilesToSingleFolderForMsdeploy;
+1>      PipelineCopyAllFilesToOneFolderForMsdeploy;
+1>      PipelineDeployPhase;
+1>    
+1>PipelineMsdeploySpecificTransformPhaseDependsOn = 
+1>      ;
+1>      ;
+1>      InsertAdditionalWebCofigConnectionStrings;
+1>      PreAutoParameterizationWebConfigConnectionStrings;
+1>      AutoParameterizationWebConfigConnectionStrings;
+1>    
+1>PipelinePreDeployCopyAllFilesToOneFolderDependsOn = 
+1>      ;
+1>      ;
+1>      PipelineTransformPhase;
+1>      CopyAllFilesToSingleFolderForPackage;
+1>    
+1>PipelineTransformPhaseDependsOn = 
+1>      ;
+1>      ;
+1>      PipeLineCollectFilesPhase;
+1>      TransformWebConfig;
+1>      ProfileTransformWebConfig;
+1>      InsertAdditionalWebCofigConnectionStrings;
+1>      MarkWebConfigAssistFilesAsExclude;
+1>    ;_TransformWebConfigForAzureAuthentication
+1>PkgDefApplicationConfigFile = C:\Users\Martin\AppData\Local\Microsoft\VisualStudio\14.0\devenv.exe.config
+1>Platform = AnyCPU
+1>PlatformName = AnyCPU
+1>PlatformTargetAsMSBuildArchitecture = CurrentArchitecture
+1>PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+1>PostAutoParameterizationWebConfigConnectionStringsDependsOn = 
+1>PostBuildEventDependsOn = 
+1>PostInsertAdditionalWebCofigConnectionStringsDependsOn = 
+1>PostInsertEFCodeFirstDeployWebCofigDependsOn = 
+1>      HandleEFCodeFirstDataMigration;
+1>      ProfileTransformWebConfig;
+1>      PreInsertEFCodeFirstDeployWebCofig;
+1>      InsertEFCodeFirstDeployWebCofigCore;
+1>    
+1>PostProfileTransformWebConfigDependsOn = 
+1>      ProfileTransformWebConfigCore;
+1>      ParameterizeProfileTransformWebConfigCore;
+1>    
+1>PostTransformWebConfigDependsOn = 
+1>      TransformWebConfigCore;
+1>      ParameterizeTransformWebConfigCore;
+1>    
+1>PreAutoParameterizationWebConfigConnectionStringsDependsOn = 
+1>      PipelineTransformPhase;
+1>    
+1>PreBuildEventDependsOn = 
+1>Prefer32Bit = false
+1>PreferredUILang = en-US
+1>PreInsertAdditionalWebCofigConnectionStringsDependsOn = 
+1>      ProfileTransformWebConfig;
+1>    
+1>PreInsertEFCodeFirstDeployWebCofigBeforeTarget = 
+1>      ;
+1>      AutoParameterizationWebConfigConnectionStrings;
+1>      PreAutoParameterizationWebConfigConnectionStrings;
+1>    
+1>PreInsertEFCodeFirstDeployWebCofigDependsOn = 
+1>      HandleEFCodeFirstDataMigration;
+1>      ProfileTransformWebConfig;
+1>    
+1>PrepareForBuildDependsOn = GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata
+1>PrepareForRunDependsOn = 
+1>      
+1>      
+1>      CopyFilesToOutputDirectory
+1>    ;RunCodeAnalysis;
+1>      CopySilverlightApplications;
+1>      _CopyBinDeployableAssemblies;
+1>    ;
+1>      _CopyWebApplication;
+1>      _BuiltWebOutputGroupOutput
+1>    
+1>PrepareResourceNamesDependsOn = 
+1>                    AssignWinFXEmbeddedResource;
+1>                    
+1>      AssignTargetPaths;
+1>      SplitResourcesByCulture;
+1>      CreateManifestResourceNames;
+1>      CreateCustomManifestResourceNames
+1>    
+1>      
+1>PrepareResourcesDependsOn = ResolveNuGetPackageAssets;
+1>      ValidationExtension;
+1>      ExpressionBuildExtension;
+1>      
+1>      XamlMarkupCompilePass1;
+1>      XamlMarkupCompilePass2;
+1>      
+1>                MarkupCompilePass1;
+1>                AfterMarkupCompilePass1;
+1>                MarkupCompilePass2ForMainAssembly;
+1>                FileClassification;
+1>                MainResourcesGeneration;
+1>                
+1>      PrepareResourceNames;
+1>      ResGen;
+1>      CompileLicxFiles
+1>    
+1>       
+1>    
+1>    
+1>PreProfileTransformWebConfigDependsOn = 
+1>      CollectFilesForProfileTransformWebConfigs;
+1>    
+1>PreTransformWebConfigDependsOn = 
+1>      CollectWebConfigsToTransform;
+1>    
+1>PROCESSOR_ARCHITECTURE = x86
+1>PROCESSOR_ARCHITEW6432 = AMD64
+1>PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+1>PROCESSOR_LEVEL = 6
+1>PROCESSOR_REVISION = 170a
+1>ProcessorArchitecture = msil
+1>ProcessorArchitectureAsPlatform = AnyCPU
+1>ProcessPublishDatabaseSettingsDependsOn = 
+1>      GetMSDeployInstalledVersionPath;
+1>    
+1>ProfileTransformWebConfigAfterTargets = 
+1>      ;
+1>      TransformWebConfig;
+1>    
+1>ProfileTransformWebConfigBeforeTargets = 
+1>      ;
+1>      MarkWebConfigAssistFilesAsExclude;
+1>    
+1>ProfileTransformWebConfigCoreDependsOn = 
+1>      PreProfileTransformWebConfig;
+1>    
+1>ProfileTransformWebConfigDependsOn = 
+1>      ;
+1>      ;
+1>      PreProfileTransformWebConfig;
+1>      ProfileTransformWebConfigCore;
+1>      ParameterizeProfileTransformWebConfigCore;
+1>      PostProfileTransformWebConfig;
+1>    
+1>ProfileTransformWebConfigEnabled = true
+1>ProfileTransformWebConfigIntermediateLocation = obj\Debug\ProfileTransformWebConfig
+1>ProfileTransformWebConfigIntermediateOutput = ProfileTransformWebConfig
+1>ProfileTransformWebConfigStackTraceEnabled = False
+1>ProgramData = C:\ProgramData
+1>ProgramFiles = C:\Program Files (x86)
+1>ProgramW6432 = C:\Program Files
+1>ProjectConfigFileName = Web.config
+1>ProjectConfigTransformFileName = Web.Debug.config
+1>ProjectDesignTimeAssemblyResolutionSearchPaths = 
+1>      {CandidateAssemblyFiles};
+1>      ;
+1>      {HintPathFromItem};
+1>      {TargetFrameworkDirectory};
+1>      {Registry:Software\Microsoft\.NETFramework,v4.5.2,AssemblyFoldersEx};
+1>      {RawFileName};
+1>      D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\
+1>    
+1>ProjectDir = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\
+1>ProjectExt = .csproj
+1>ProjectFileName = Ts182HtmlApp.csproj
+1>ProjectFlavor = Client
+1>ProjectGuid = {0215271E-EE8B-48ED-8354-072EBAA3F838}
+1>ProjectLockFile = project.lock.json
+1>ProjectName = Ts182HtmlApp
+1>ProjectNSettingsTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.Settings.targets
+1>ProjectNTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets
+1>ProjectParametersXMLFile = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Parameters.xml
+1>ProjectPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj
+1>ProjectTypeGuids = {349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}
+1>PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1>PUBLIC = C:\Users\Public
+1>PublishableProject = 
+1>PublishBuildDependsOn = 
+1>            BuildOnlySettings;
+1>            PrepareForBuild;
+1>            ResolveReferences;
+1>            PrepareResources;
+1>            ResolveKeySource;
+1>            PrepareResourcesForSatelliteAssemblies;
+1>            GenerateSerializationAssemblies;
+1>            CreateSatelliteAssemblies;
+1>        
+1>PublishDatabases = True
+1>PublishDependsOn = 
+1>      _DeploymentUnpublishable
+1>    
+1>PublishDir = bin\app.publish\
+1>PublishDisableLinks = AppPoolExtension;ContentExtension;CertificateExtension
+1>PublishEnableLinks = 
+1>PublishOnlyDependsOn = 
+1>      SetGenerateManifests;
+1>      PublishBuild;
+1>      BeforePublish;
+1>      GenerateManifests;
+1>      CopyFilesToOutputDirectory;
+1>      _CopyFilesToPublishFolder;
+1>      _DeploymentGenerateBootstrapper;
+1>      ResolveKeySource;
+1>      _DeploymentSignClickOnceDeployment;
+1>      AfterPublish
+1>    
+1>PublishParametersFile = @(_MSDeployPackageLocation->'%(RootDir)%(Directory)%(FileName).Publish.Parameters.xml')
+1>PublishPipelineCollectFilesCore = 
+1>      
+1>      
+1>            ;
+1>            CollectFilesFromBuildInfoConfigFile;
+1>        ;
+1>      CollectFilesFromIntermediateAssembly;
+1>      CollectFilesFromContent;
+1>      CollectFilesFromAddModules;
+1>      CollectFilesFrom_SGenDllCreated;
+1>      CollectFilesFromIntermediateSatelliteAssembliesWithTargetPath;
+1>      CollectFilesFromReference;
+1>      CollectFilesFromAllExtraReferenceFiles;
+1>      CollectFilesFrom_SourceItemsToCopyToOutputDirectory;
+1>      CollectFilesFromDocFileItem;
+1>      CollectFilesFrom_WebApplicationSilverlightXapFiles;
+1>      CollectFilesFrom_binDeployableAssemblies;
+1>    ;
+1>      CompileTypeScript;
+1>    
+1>PublishProfileName = 
+1>PublishProfileRootFolder = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Properties\PublishProfiles
+1>RebuildDependsOn = 
+1>      BeforeRebuild;
+1>      Clean;
+1>      Build;
+1>      AfterRebuild;
+1>    
+1>RemoteDbDacFxPreviewDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>      GenerateGlobalPublishSetting;
+1>      ValidateDbDacFxPreviewSettings;
+1>      _DetectDbDacFxProvider;
+1>    
+1>RemoteSitePhysicalPath = 
+1>ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\ReportingServices\Microsoft.ReportingServices.targets
+1>ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+1>ResGenExecuteAsTool = false
+1>ResolveAssemblyReferencesDependsOn = 
+1>      GetFrameworkPaths;
+1>      GetReferenceAssemblyPaths;
+1>      PrepareForBuild;
+1>      ResolveSDKReferences;
+1>      ExpandSDKReferences;
+1>    ;ResolveNuGetPackageAssets
+1>ResolveNuGetPackages = true
+1>ResolveReferencesDependsOn = 
+1>      
+1>      
+1>      BeforeResolveReferences;
+1>      AssignProjectConfiguration;
+1>      ResolveProjectReferences;
+1>      FindInvalidProjectReferences;
+1>      ResolveNativeReferences;
+1>      ResolveAssemblyReferences;
+1>      GenerateBindingRedirects;
+1>      ResolveComReferences;
+1>      AfterResolveReferences
+1>    ;
+1>      ImplicitlyExpandDesignTimeFacades
+1>    ;
+1>      ResolveTestReferences
+1>    
+1>ResolveSDKReferencesDependsOn = 
+1>      GetInstalledSDKLocations
+1>    
+1>RetryAttemptsForDeployment = 2
+1>RootNamespace = Ts182HtmlApp
+1>RunAfterInstall = true
+1>RunCodeAnalysisDependsOn = ;Compile
+1>RunCodeAnalysisInputs = bin\Ts182HtmlApp.dll
+1>RunCodeAnalysisOnce = FALSE
+1>RunDependsOn = 
+1>RunNativeCodeAnalysisInputs = 
+1>SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+1>SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+1>SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\
+1>SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+1>SDKReferenceDirectoryRoot = C:\Users\Martin\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+1>SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+1>SESSIONNAME = Console
+1>SGenFilesOutputGroupDependsOn = 
+1>SGenShouldGenerateSerializer = true
+1>SGenUseKeep = false
+1>SGenUseProxyTypes = true
+1>ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+1>SkipApp_DataFolder = False
+1>SkipCopyUnchangedFiles = true
+1>SkipExtraFilesOnServer = False
+1>SolutionDir = D:\Ts\Ts18Vs2015Issue\
+1>SolutionExt = .sln
+1>SolutionFileName = Ts182HtmlApp.sln
+1>SolutionName = Ts182HtmlApp
+1>SolutionPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp.sln
+1>SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+1>SqlScriptPreProcessBatchDelimiter = 
+1>SqlScriptPreProcessResolveIncludes = False
+1>SqlScriptSourceTransacted = 
+1>SSH_AGENT_PID = 6240
+1>SSH_AUTH_SOCK = /tmp/ssh-AERxqn6832/agent.6832
+1>SubsystemVersion = 6.00
+1>SystemDrive = C:
+1>SystemRoot = C:\Windows
+1>TargetCulture = *
+1>TargetDeployManifestFileName = Ts182HtmlApp.application
+1>TargetDir = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\
+1>TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+1>TargetedRuntimeVersion = v4.0.30319
+1>TargetedSDKArchitecture = msil
+1>TargetedSDKConfiguration = Debug
+1>TargetExt = .dll
+1>TargetFileName = Ts182HtmlApp.dll
+1>TargetFrameworkAsMSBuildRuntime = CurrentRuntime
+1>TargetFrameworkIdentifier = .NETFramework
+1>TargetFrameworkMoniker = .NETFramework,Version=v4.5.2
+1>TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\Martin\AppData\Local\Temp\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs
+1>TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\
+1>TargetFrameworkVersion = v4.5.2
+1>TargetName = Ts182HtmlApp
+1>TargetPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\Ts182HtmlApp.dll
+1>TargetPlatformDisplayName = Windows 7.0
+1>TargetPlatformIdentifier = Windows
+1>TargetPlatformMoniker = Windows,Version=7.0
+1>TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+1>TargetPlatformSdkPath = 
+1>TargetPlatformVersion = 7.0
+1>TargetRuntime = Managed
+1>TaskKeyToken = 31bf3856ad364e35
+1>TaskVersion = 4.0.0.0
+1>TEMP = C:\Users\Martin\AppData\Local\Temp
+1>TestDeployPackageToLocalDependsOn = 
+1>      GetMSDeployInstalledVersionPath;
+1>      GenerateMsDeployManifestSettings;
+1>      GenerateMsdeployManifestFiles;
+1>      Package;
+1>    
+1>TMP = C:\Users\Martin\AppData\Local\Temp
+1>TransformWebConfigBeforeTargets = 
+1>      ;
+1>      MarkWebConfigAssistFilesAsExclude;
+1>    
+1>TransformWebConfigCoreDependsOn = 
+1>      PreTransformWebConfig;
+1>    
+1>TransformWebConfigDependsOn = 
+1>      ;
+1>      ;
+1>      PreTransformWebConfig;
+1>      TransformWebConfigCore;
+1>      ParameterizeTransformWebConfigCore;
+1>      PostTransformWebConfig;
+1>    
+1>TransformWebConfigEnabled = true
+1>TransformWebConfigIntermediateLocation = obj\Debug\TransformWebConfig
+1>TransformWebConfigIntermediateOutput = TransformWebConfig
+1>TransformWebConfigStackTraceEnabled = False
+1>TreadSqlScriptUnsupportedCommandsAsWarning = False
+1>TscToolExe = tsc.exe
+1>TscToolPath = C:\Program Files (x86)\Microsoft SDKs\TypeScript
+1>TscYieldDuringToolExecution = true
+1>TypeScriptBuildConfigurations =  --noImplicitAny --jsx React --sourcemap --target ES6 --locale en-US
+1>TypeScriptCompileBlocked = false
+1>TypeScriptCompileOnSaveEnabled = True
+1>TypeScriptEnabled = true
+1>TypeScriptGeneratesDeclarations = False
+1>TypeScriptJSXEmit = React
+1>TypeScriptMapRoot = 
+1>TypeScriptModuleKind = None
+1>TypeScriptNoEmitOnError = False
+1>TypeScriptNoImplicitAny = True
+1>TypeScriptOutDir = 
+1>TypeScriptOutFile = 
+1>TypeScriptRemoveComments = false
+1>TypeScriptSourceMap = true
+1>TypeScriptSourceRoot = 
+1>TypeScriptTarget = ES6
+1>TypeScriptToolsVersion = 1.8
+1>UnmanagedRegistrationDependsOn = 
+1>UnmanagedUnregistrationDependsOn = 
+1>UpdateFromConnectionStringAttributes = MultipleActiveResultSets;App;
+1>UpgradeSubsetToProfile = true
+1>UseCommonOutputDirectory = false
+1>UseDeclareParametersXMLInMsDeploy = False
+1>UseDotNetNativeToolchain = 
+1>UseGlobalApplicationHostFile = 
+1>UseHostCompilerIfAvailable = true
+1>UseIISExpress = true
+1>UseMsdeployExe = False
+1>UseParameterizeToProfileTransformWebConfig = False
+1>UseParameterizeToTransformWebConfig = False
+1>USERDOMAIN = ACER2009
+1>USERNAME = Martin
+1>UserParametersFileParametersPriority = -50
+1>USERPROFILE = C:\Users\Martin
+1>UserProfileParametersFileParametersPriority = -55
+1>UserWebConfigParametersPriority = -40
+1>UseSourcePath = true
+1>UseWPP_CopyWebApplication = False
+1>Utf8Output = true
+1>ValidateDbDacFxPreviewSettingsDependsOn = 
+1>      ;
+1>      GetMSDeployInstalledVersionPath;
+1>    
+1>ValidateGlobalPackageSettingDependsOn = 
+1>      ;
+1>      GetProjectWebProperties;
+1>      ValidateGlobalSettings;
+1>    
+1>ValidateGlobalSettingsDependsOn = 
+1>      ;
+1>      GetProjectWebProperties;
+1>    
+1>ValidatePublishProfileSettingsDependsOn = 
+1>      ;
+1>      ;
+1>    
+1>VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+1>VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+1>VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+1>VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+1>VCTargetsPath14 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+1>VerifyDatabaseSettingWithImport = True
+1>Version = 1.0.0.0
+1>VisualStudioDir = C:\Users\Martin\Documents\Visual Studio 2015
+1>VisualStudioEdition = Microsoft Visual Studio Community 2015
+1>VisualStudioVersion = 14.0
+1>VS100COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+1>VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+1>VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+1>VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+1>VsContentPathParametersPriority = -80
+1>VsDestinationVDirParametersPriority = -70
+1>VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+1>VsIisAppParametersPriority = -100
+1>VSLANG = 1033
+1>VsSetAclPriority = -60
+1>VsSQLDatabaseScriptParametersPriority = 60
+1>VsToolsPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0
+1>VsWebConfigAutoCsParametersPriority = 100
+1>Web_Publishing_AspNetCompileMerge_targets = Transform\Microsoft.Web.Publishing.AspNetCompileMerge.targets
+1>WebMSDeployPublishDependsOn = 
+1>      MSDeployPublish;
+1>    
+1>WebPackagePublishDependsOn = 
+1>      Package;
+1>    
+1>WebProjectOutputDir = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp
+1>WebProjectOutputDirInsideProject = True
+1>WebProjectOutputDirInsideProjectDefault = True
+1>WebPublishDependsOn = 
+1>      ;
+1>      ValidatePublishProfileSettings;
+1>    
+1>WebPublishExtensionsToExclude = .tt;.settings
+1>WebPublishPipelineCustomizeTargetFile = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\*.wpp.targets
+1>WebPublishPipelineProjectDirectory = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp
+1>WebPublishPipelineProjectFile = Ts182HtmlApp.csproj
+1>WebPublishPipeLineProjectFullPath = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj
+1>WebPublishPipelineProjectName = Ts182HtmlApp
+1>WebPublishPipelineSolutionTargetFile = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\..\wpp.deploysettings.targets
+1>WebPublishPipelineSourceRootDirectory = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp
+1>WebPublishPipelineTransformRootDirectory = 
+1>WebPublishPipelineWAPProjectSettings = D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj
+1>WebPublishTasksDir = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\
+1>WebReference_EnableLegacyEventingModel = false
+1>WebReference_EnableProperties = true
+1>WebReference_EnableSQLTypes = true
+1>windir = C:\Windows
+1>WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+1>WMSJSProject = WJProject
+1>WMSJSProjectDirectory = JavaScript
+1>WorkflowBuildExtensionAssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+1>WorkflowBuildExtensionKeyToken = 31bf3856ad364e35
+1>WorkflowBuildExtensionVersion = 4.0.0.0
+1>WPPAllFilesInSingleFolder = obj\Debug\Package\PackageTmp
+1>WPPCopyWebApplicaitonPipelineCircularDependencyError = False
+1>WriteItemsToSourceManifestDependsOn = 
+1>      ;
+1>      
+1>      ;
+1>      AddDatabasesToSourceManifest;
+1>    ;
+1>      AddIisSettingAndFileContentsToSourceManifest;
+1>    
+1>XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+1>XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+1>XamlBuildTaskPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+1>XamlDebuggingInformation = true
+1>XamlGenCodeFileNames = Ts182HtmlApp.csproj.XamlGeneratedCodeFileListAbsolute.txt
+1>XamlGenMarkupFileNames = Ts182HtmlApp.csproj.XamlGeneratedXamlFileListAbsolute.txt
+1>XamlPass2FlagFile = Ts182HtmlApp.csproj.XamlPass2Flag.txt
+1>XamlRequiresCompilationPass2 = false
+1>XamlTemporaryAssemblyName = Ts182HtmlApp
+1>XNAGSShared = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+1>XNAGSv4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+1>YieldDuringToolExecution = true
+1>
+1>Building with tools version "14.0".
+1>Project file contains ToolsVersion="4.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="14.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (entry point):
+1>Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Ts182HtmlApp.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'.
+1>Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Ts182HtmlApp.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
+1>Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Message" (TaskId:2)
+1>  Task Parameter:Text=Configuration=Debug (TaskId:2)
+1>  Task Parameter:Importance=Low (TaskId:2)
+1>  Configuration=Debug (TaskId:2)
+1>Done executing task "Message". (TaskId:2)
+1>Task "Message" (TaskId:3)
+1>  Task Parameter:Text=Platform=AnyCPU (TaskId:3)
+1>  Task Parameter:Importance=Low (TaskId:3)
+1>  Platform=AnyCPU (TaskId:3)
+1>Done executing task "Message". (TaskId:3)
+1>Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\' != '' and !HasTrailingSlash('bin\')).
+1>Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+1>Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Ts182HtmlApp.csproj".: (TargetId:2)
+1>Target "BeforeRebuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Rebuild" depends on it):
+1>Done building target "BeforeRebuild" in project "Ts182HtmlApp.csproj".: (TargetId:3)
+1>Target "BeforeClean: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Done building target "BeforeClean" in project "Ts182HtmlApp.csproj".: (TargetId:4)
+1>Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+1>                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+1>                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+1>                    ('' == '')) and
+1>                   Exists('obj\Ts182HtmlApp.csproj.UnmanagedRegistration.cache')).
+1>Target "CoreClean: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Delete" (TaskId:4)
+1>  Task Parameter:
+1>      Files=
+1>          obj\Debug\\TempCA\Ts182HtmlApp.pdb
+1>          obj\Debug\\TempCA\Ts182HtmlApp.dll (TaskId:4)
+1>  Task Parameter:TreatErrorsAsWarnings=True (TaskId:4)
+1>  File "obj\Debug\\TempCA\Ts182HtmlApp.pdb" doesn't exist. Skipping. (TaskId:4)
+1>  File "obj\Debug\\TempCA\Ts182HtmlApp.dll" doesn't exist. Skipping. (TaskId:4)
+1>Done executing task "Delete". (TaskId:4)
+1>Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ReadLinesFromFile" (TaskId:5)
+1>  Task Parameter:File=obj\Debug\Ts182HtmlApp.csproj.FileListAbsolute.txt (TaskId:5)
+1>Done executing task "ReadLinesFromFile". (TaskId:5)
+1>Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "FindUnderPath" (TaskId:6)
+1>  Task Parameter:Path=bin\ (TaskId:6)
+1>  Comparison path is "bin\". (TaskId:6)
+1>Done executing task "FindUnderPath". (TaskId:6)
+1>Task "FindUnderPath" (TaskId:7)
+1>  Task Parameter:Path=obj\Debug\ (TaskId:7)
+1>  Comparison path is "obj\Debug\". (TaskId:7)
+1>Done executing task "FindUnderPath". (TaskId:7)
+1>Task "Delete" (TaskId:8)
+1>  Task Parameter:TreatErrorsAsWarnings=True (TaskId:8)
+1>Done executing task "Delete". (TaskId:8)
+1>Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "RemoveDuplicates" (TaskId:9)
+1>Done executing task "RemoveDuplicates". (TaskId:9)
+1>Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "MakeDir" (TaskId:10)
+1>  Task Parameter:Directories=obj\Debug\ (TaskId:10)
+1>Done executing task "MakeDir". (TaskId:10)
+1>Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "WriteLinesToFile" (TaskId:11)
+1>  Task Parameter:File=obj\Debug\Ts182HtmlApp.csproj.FileListAbsolute.txt (TaskId:11)
+1>  Task Parameter:Overwrite=True (TaskId:11)
+1>Done executing task "WriteLinesToFile". (TaskId:11)
+1>Done building target "CoreClean" in project "Ts182HtmlApp.csproj".: (TargetId:5)
+1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CleanReferencedProjects" depends on it):
+1>Set Property: OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=true
+1>Set Property: ShouldUnsetParentConfigurationAndPlatform=true
+1>Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignProjectConfiguration" (TaskId:12)
+1>  Task Parameter:CurrentProject=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj (TaskId:12)
+1>  Task Parameter:CurrentProjectConfiguration=Debug (TaskId:12)
+1>  Task Parameter:CurrentProjectPlatform=AnyCPU (TaskId:12)
+1>  Task Parameter:OutputType=Library (TaskId:12)
+1>  Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:12)
+1>  Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+1>  <ProjectConfiguration Project="{0215271e-ee8b-48ed-8354-072ebaa3f838}" AbsolutePath="D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj">Debug|AnyCPU</ProjectConfiguration>
+1>  </SolutionConfiguration> (TaskId:12)
+1>  Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:12)
+1>  Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:12)
+1>Done executing task "AssignProjectConfiguration". (TaskId:12)
+1>Done building target "AssignProjectConfiguration" in project "Ts182HtmlApp.csproj".: (TargetId:6)
+1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CleanReferencedProjects" depends on it):
+1>Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+1>Done building target "_SplitProjectReferencesByFileExistence" in project "Ts182HtmlApp.csproj".: (TargetId:7)
+1>Target "CleanReferencedProjects: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+1>Done building target "CleanReferencedProjects" in project "Ts182HtmlApp.csproj".: (TargetId:8)
+1>Target "CleanPublishFolder: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('bin\app.publish\'=='bin\app.publish\' and Exists('bin\app.publish\')).
+1>Done building target "CleanPublishFolder" in project "Ts182HtmlApp.csproj".: (TargetId:9)
+1>Target "AfterClean: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Done building target "AfterClean" in project "Ts182HtmlApp.csproj".: (TargetId:10)
+1>Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+1>Target "CleanWebProjectOutputDir" skipped, due to false condition; ($(CleanWebProjectOutputDir)) was evaluated as (False).
+1>Target "GenerateMsDeployManifestSettings: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CleanWebsitesPackage" depends on it):
+1>Added Item(s): _MSDeployDirPath=obj\Debug\Package\PackageTmp
+1>Task "GetPublishingLocalizedString" skipped, due to false condition; ('$(DeployParameterIISAppNameDescription)'=='' And !$(DeployParameterAutoDescriptionbyTags)) was evaluated as (''=='' And !True).
+1>Task "DeployParameterIISAppNameDescription" skipped, due to false condition; ('$(DeployParameterIISAppNameDescription)'!='' And $(DeployParameterAutoDescriptionbyTags)) was evaluated as (''!='' And True).
+1>Task "GetPublishingLocalizedString" skipped, due to false condition; ('$(DeployParameterIISAppPhysicalPathDescription)'=='' And !$(DeployParameterAutoDescriptionbyTags)) was evaluated as (''=='' And !True).
+1>Task "DeployParameterIISAppPhysicalPathDescription" skipped, due to false condition; ('$(DeployParameterIISAppPhysicalPathDescription)'!='' And $(DeployParameterAutoDescriptionbyTags)) was evaluated as (''!='' And True).
+1>Set Property: _MSDeployDirPath_FullPath=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\PackageTmp
+1>Set Property: _MSDeployIisAppPathIIS7=
+1>Set Property: _MSDeployIisAppPathIIS6=
+1>Set Property: _MSDeployIisAppPathIIS7=Default Web Site/Ts182HtmlApp_deploy
+1>Set Property: _MSDeployIisAppPathIIS6=Default Web Site/Ts182HtmlApp_deploy
+1>Added Item(s): _MSDeploySourceManifest=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.SourceManifest.xml
+1>Added Item(s): _MSDeployParametersFile=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.Package.Parameters.xml
+1>Added Item(s): _MSDeploySampleParametersValue=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.SetParameters.xml
+1>Added Item(s): _MSDeployGenerateSampleDeployScriptReadMeLocation=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.deploy-readme.txt
+1>Done building target "GenerateMsDeployManifestSettings" in project "Ts182HtmlApp.csproj".: (TargetId:11)
+1>Target "GenerateMsDeployManifestSettings" skipped. Previously built successfully.
+1>Target "CleanWebsitesPackageCore: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CleanWebsitesPackage" depends on it):
+1>Task "CheckItemsCount" skipped, due to false condition; ($(EnablePackageProcessLoggingAndAssert)) was evaluated as (False).
+1>Task "GetPublishingLocalizedString" skipped, due to false condition; ($(EnablePackageProcessLoggingAndAssert) AND '$(_InternalItemsCount)' != '1') was evaluated as (False AND '' != '1').
+1>Task "Error" skipped, due to false condition; ($(EnablePackageProcessLoggingAndAssert) AND '$(_InternalItemsCount)' != '1') was evaluated as (False AND '' != '1').
+1>Using "CheckPathAttributes" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.Tasks.dll".
+1>Task "CheckPathAttributes" (TaskId:13)
+1>  Task Parameter:Path=obj\Debug\Package\Ts182HtmlApp.zip (TaskId:13)
+1>  Output Property: _CheckPackageLocationExists=False (TaskId:13)
+1>  Output Property: _CheckPackageLocationIsFolder=False (TaskId:13)
+1>Done executing task "CheckPathAttributes". (TaskId:13)
+1>Task "RemoveDir" skipped, due to false condition; ($(_CheckPackageLocationExists) AND $(_CheckPackageLocationIsFolder)) was evaluated as (False AND False).
+1>Task "Delete" skipped, due to false condition; ($(_CheckPackageLocationExists) AND !$(_CheckPackageLocationIsFolder)) was evaluated as (False AND !False).
+1>Done building target "CleanWebsitesPackageCore" in project "Ts182HtmlApp.csproj".: (TargetId:12)
+1>Target "CleanWebsitesPackage: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "Delete" skipped, due to false condition; (Exists('$(PackageSourceManifest)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.SourceManifest.xml')).
+1>Task "Delete" skipped, due to false condition; (Exists('$(PublishParametersFile)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.Publish.Parameters.xml')).
+1>Task "Delete" skipped, due to false condition; (Exists('$(GenerateSampleDeployScriptLocation)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.deploy.cmd')).
+1>Task "Delete" skipped, due to false condition; (Exists('$(GenerateSampleDeployScriptReadMeLocation)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.deploy-readme.txt')).
+1>Task "Delete" skipped, due to false condition; (Exists('$(GenerateSampleParametersValueLocation)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.SetParameters.xml')).
+1>Task "Delete" skipped, due to false condition; (Exists('$(GenerateSampleParametersValueLocation)')) was evaluated as (Exists('D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Package\Ts182HtmlApp.SetParameters.xml')).
+1>Done building target "CleanWebsitesPackage" in project "Ts182HtmlApp.csproj".: (TargetId:13)
+1>Target "CleanWebsitesWPPAllFilesInSingleFolder: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(WPPAllFilesInSingleFolder))) was evaluated as (Exists(obj\Debug\Package\PackageTmp)).
+1>Done building target "CleanWebsitesWPPAllFilesInSingleFolder" in project "Ts182HtmlApp.csproj".: (TargetId:14)
+1>Target "CleanWebPublishPipelineIntermediateOutput: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Web\Microsoft.Web.Publishing.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(AutoParameterizationWebConfigConnectionStringsLocation))) was evaluated as (Exists(obj\Debug\CSAutoParameterize)).
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(TransformWebConfigIntermediateLocation))) was evaluated as (Exists(obj\Debug\TransformWebConfig)).
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(ProfileTransformWebConfigIntermediateLocation))) was evaluated as (Exists(obj\Debug\ProfileTransformWebConfig)).
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(DatabaseDeployIntermediateOutputPath))) was evaluated as (Exists(obj\Debug\Database)).
+1>Task "RemoveDir" skipped, due to false condition; (Exists($(InsertAdditionalWebCofigConnectionStringsLocation))) was evaluated as (Exists(obj\Debug\InsertAdditionalCS)).
+1>Task "Delete" skipped, due to false condition; (Exists($(_WebConfigTransformOutputParametersFile))) was evaluated as (Exists(obj\Debug\TransformWebConfig.parameters.xml)).
+1>Task "Delete" skipped, due to false condition; (Exists($(_WebConfigsToAutoParmeterizeCsTransformOutputParametersFile))) was evaluated as (Exists(obj\Debug\CSAutoParameterize.parameters.xml)).
+1>Task "Delete" skipped, due to false condition; (Exists($(_ProfileWebConfigTransformOutputParametersFile))) was evaluated as (Exists(obj\Debug\ProfileTransformWebConfig.parameters.xml)).
+1>Task "Delete" skipped, due to false condition; (Exists($(_WPPLastBuildInfoLocation))) was evaluated as (Exists(obj\Debug\_WPPLastBuildInfo.txt)).
+1>Done building target "CleanWebPublishPipelineIntermediateOutput" in project "Ts182HtmlApp.csproj".: (TargetId:15)
+1>Target "PreComputeCompileTypeScript: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TypeScript\Microsoft.TypeScript.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "TypeScriptClean" depends on it):
+1>Using "VsTsc" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TypeScript\TypeScript.tasks.dll".
+1>Task "VsTsc" (TaskId:14)
+1>  Task Parameter:ToolPath=C:\Program Files (x86)\Microsoft SDKs\TypeScript (TaskId:14)
+1>  Task Parameter:ToolExe=tsc.exe (TaskId:14)
+1>  Task Parameter:Configurations= --noImplicitAny --jsx React --sourcemap --target ES6 --locale en-US COMPUTE_PATHS_ONLY (TaskId:14)
+1>  Task Parameter:
+1>      FullPathsToFiles=
+1>          app.tsx
+1>          SampleSfc.tsx
+1>          typings\react\react-addons-create-fragment.d.ts
+1>          typings\react\react-addons-css-transition-group.d.ts
+1>          typings\react\react-addons-linked-state-mixin.d.ts
+1>          typings\react\react-addons-perf.d.ts
+1>          typings\react\react-addons-pure-render-mixin.d.ts
+1>          typings\react\react-addons-test-utils.d.ts
+1>          typings\react\react-addons-transition-group.d.ts
+1>          typings\react\react-addons-update.d.ts
+1>          typings\react\react-dom.d.ts
+1>          typings\react\react-global.d.ts
+1>          typings\react\react.d.ts
+1>          typings\tsd.d.ts (TaskId:14)
+1>  Task Parameter:YieldDuringToolExecution=True (TaskId:14)
+1>  Task Parameter:ProjectDir=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\ (TaskId:14)
+1>  Task Parameter:ToolsVersion=1.8 (TaskId:14)
+1>  Task Parameter:TypeScriptCompileBlocked=False (TaskId:14)
+1>  C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\tsc.exe  --noImplicitAny --jsx React --sourcemap --target ES6 --locale en-US COMPUTE_PATHS_ONLY "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.tsx" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.tsx" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-create-fragment.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-css-transition-group.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-linked-state-mixin.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-perf.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-pure-render-mixin.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-test-utils.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-transition-group.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-update.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-dom.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-global.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\tsd.d.ts" (TaskId:14)
+1>  Output Item(s): 
+1>      GeneratedJavascript=
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map (TaskId:14)
+1>Done executing task "VsTsc". (TaskId:14)
+1>Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignTargetPath" (TaskId:15)
+1>  Task Parameter:
+1>      Files=
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map (TaskId:15)
+1>  Task Parameter:RootFolder=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:15)
+1>  Output Item(s): 
+1>      GeneratedJavascriptWithTargetPath=
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  TargetPath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  TargetPath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  TargetPath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  TargetPath=SampleSfc.js.map (TaskId:15)
+1>Done executing task "AssignTargetPath". (TaskId:15)
+1>Added Item(s): 
+1>    FilesForPackagingFromProject=
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                Category=Run
+1>                DestinationRelativePath=app.js
+1>                Exclude=False
+1>                FromTarget=Unknown
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                ProjectFileType=Default
+1>                TargetPath=app.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                Category=Run
+1>                DestinationRelativePath=app.js.map
+1>                Exclude=False
+1>                FromTarget=Unknown
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                ProjectFileType=Default
+1>                TargetPath=app.js.map
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                Category=Run
+1>                DestinationRelativePath=SampleSfc.js
+1>                Exclude=False
+1>                FromTarget=Unknown
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                ProjectFileType=Default
+1>                TargetPath=SampleSfc.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                Category=Run
+1>                DestinationRelativePath=SampleSfc.js.map
+1>                Exclude=False
+1>                FromTarget=Unknown
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                ProjectFileType=Default
+1>                TargetPath=SampleSfc.js.map
+1>Added Item(s): 
+1>    ContentWithTargetPath=
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                DestinationRelativePath=app.js
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                TargetPath=app.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                DestinationRelativePath=app.js.map
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                TargetPath=app.js.map
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                DestinationRelativePath=SampleSfc.js
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                TargetPath=SampleSfc.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                DestinationRelativePath=SampleSfc.js.map
+1>                OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                TargetPath=SampleSfc.js.map
+1>Added Item(s): 
+1>    Content=
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                DestinationRelativePath=app.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                DestinationRelativePath=app.js.map
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                DestinationRelativePath=SampleSfc.js
+1>        D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                DestinationRelativePath=SampleSfc.js.map
+1>Done building target "PreComputeCompileTypeScript" in project "Ts182HtmlApp.csproj".: (TargetId:16)
+1>Target "TypeScriptClean: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TypeScript\Microsoft.TypeScript.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Clean" depends on it):
+1>Task "Delete" (TaskId:16)
+1>  Task Parameter:
+1>      Files=
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map (TaskId:16)
+1>  Deleting file "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js". (TaskId:16)
+1>  Deleting file "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map". (TaskId:16)
+1>  Deleting file "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js". (TaskId:16)
+1>  Deleting file "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map". (TaskId:16)
+1>Done executing task "Delete". (TaskId:16)
+1>Done building target "TypeScriptClean" in project "Ts182HtmlApp.csproj".: (TargetId:17)
+1>Target "Clean: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Rebuild" depends on it):
+1>Done building target "Clean" in project "Ts182HtmlApp.csproj".: (TargetId:18)
+1>Target "CleanXsdCodeGen: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Rebuild" depends on it):
+1>Task "Delete" (TaskId:17)
+1>Done executing task "Delete". (TaskId:17)
+1>Done building target "CleanXsdCodeGen" in project "Ts182HtmlApp.csproj".: (TargetId:19)
+1>Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+1>Target "BeforeBuild: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Build" depends on it):
+1>Done building target "BeforeBuild" in project "Ts182HtmlApp.csproj".: (TargetId:20)
+1>Target "BuildOnlySettings: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CoreBuild" depends on it):
+1>Set Property: BuildingProject=true
+1>Done building target "BuildOnlySettings" in project "Ts182HtmlApp.csproj".: (TargetId:21)
+1>Target "GetFrameworkPaths: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareForBuild" depends on it):
+1>Added Item(s): _TargetFramework40DirectoryItem=C:\Windows\Microsoft.NET\Framework\v4.0.30319
+1>Added Item(s): _TargetFramework35DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.5
+1>Added Item(s): _TargetFramework30DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.0
+1>Added Item(s): _TargetFramework20DirectoryItem=C:\Windows\Microsoft.NET\Framework\v2.0.50727
+1>Added Item(s): _TargetedFrameworkDirectoryItem=C:\Windows\Microsoft.NET\Framework\v4.0.30319
+1>Added Item(s): _CombinedTargetFrameworkDirectoriesItem=C:\Windows\Microsoft.NET\Framework\v4.0.30319
+1>Set Property: TargetFrameworkDirectory=C:\Windows\Microsoft.NET\Framework\v4.0.30319
+1>Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+1>Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+1>Done building target "GetFrameworkPaths" in project "Ts182HtmlApp.csproj".: (TargetId:22)
+1>Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+1>Target "GetReferenceAssemblyPaths: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareForBuild" depends on it):
+1>Set Property: TargetFrameworkDirectory=
+1>Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "GetReferenceAssemblyPaths" (TaskId:18)
+1>  Task Parameter:TargetFrameworkMoniker=.NETFramework,Version=v4.5.2 (TaskId:18)
+1>  Output Property: _TargetFrameworkDirectories=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\ (TaskId:18)
+1>  Output Property: _FullFrameworkReferenceAssemblyPaths=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\ (TaskId:18)
+1>  Output Property: TargetFrameworkMonikerDisplayName=.NET Framework 4.5.2 (TaskId:18)
+1>Done executing task "GetReferenceAssemblyPaths". (TaskId:18)
+1>Set Property: TargetFrameworkDirectory=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\;;
+1>Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
+1>Added Item(s): DesignTimeFacadeDirectoryRoots=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\
+1>Added Item(s): DesignTimeFacadeDirectories=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\
+1>Set Property: TargetFrameworkDirectory=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\;;;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\
+1>Done building target "GetReferenceAssemblyPaths" in project "Ts182HtmlApp.csproj".: (TargetId:23)
+1>Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Target "PrepareForBuild: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CoreBuild" depends on it):
+1>Added Item(s): 
+1>    AppConfigWithTargetPath=
+1>        Web.config
+1>                TargetPath=Ts182HtmlApp.dll.config
+1>Task "FindAppConfigFile" skipped, due to false condition; ('$(AppConfig)'=='') was evaluated as ('Web.config'=='').
+1>Task "MakeDir" (TaskId:19)
+1>  Task Parameter:
+1>      Directories=
+1>          bin\
+1>          obj\Debug\ (TaskId:19)
+1>Done executing task "MakeDir". (TaskId:19)
+1>Done building target "PrepareForBuild" in project "Ts182HtmlApp.csproj".: (TargetId:24)
+1>Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+1>Target "BeforeResolveReferences: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "BeforeResolveReferences" in project "Ts182HtmlApp.csproj".: (TargetId:25)
+1>Target "AssignProjectConfiguration" skipped. Previously built successfully.
+1>Target "AssignProjectConfiguration" skipped. Previously built successfully.
+1>Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+1>Target "ResolveProjectReferences: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveReferences" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+1>Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+1>Done building target "ResolveProjectReferences" in project "Ts182HtmlApp.csproj".: (TargetId:26)
+1>Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+1>Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GetInstalledSDKLocations: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveSDKReferences" depends on it):
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+1>Done building target "GetInstalledSDKLocations" in project "Ts182HtmlApp.csproj".: (TargetId:27)
+1>Target "ResolveSDKReferences: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ResolveSDKReferences" in project "Ts182HtmlApp.csproj".: (TargetId:28)
+1>Target "ResolveSDKReferences" skipped. Previously built successfully.
+1>Target "ExpandSDKReferences: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ExpandSDKReferences" in project "Ts182HtmlApp.csproj".: (TargetId:29)
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('project.lock.json')).
+1>Target "ResolveAssemblyReferences: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveReferences" depends on it):
+1>Added Item(s): 
+1>    _ReferenceInstalledAssemblyDirectory=
+1>        C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\
+1>        C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\
+1>Set Property: ResolveAssemblyReferencesStateFile=obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache
+1>Added Item(s): 
+1>    _ResolveAssemblyReferencesApplicationConfigFileForExes=
+1>        Web.config
+1>                TargetPath=Ts182HtmlApp.dll.config
+1>Set Property: ResolveAssemblyReferencesSilent=false
+1>Set Property: ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch=Warning
+1>Added Item(s): 
+1>    Reference=
+1>        System.Core
+1>                Implicit=true
+1>Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ResolveAssemblyReference" (TaskId:20)
+1>  Task Parameter:
+1>      Assemblies=
+1>          System.Core
+1>                  Implicit=true (TaskId:20)
+1>  Task Parameter:AssemblyFiles=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll (TaskId:20)
+1>  Task Parameter:
+1>      TargetFrameworkDirectories=
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\ (TaskId:20)
+1>  Task Parameter:
+1>      CandidateAssemblyFiles=
+1>          app.css
+1>          index.html
+1>          web.config
+1>          packages.config
+1>          tslint.json
+1>          tsd.json
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>          web.Debug.config
+1>          web.Release.config (TaskId:20)
+1>  Task Parameter:
+1>      SearchPaths=
+1>          {CandidateAssemblyFiles}
+1>          {HintPathFromItem}
+1>          {TargetFrameworkDirectory}
+1>          {Registry:Software\Microsoft\.NETFramework,v4.5.2,AssemblyFoldersEx}
+1>          {AssemblyFolders}
+1>          {GAC}
+1>          {RawFileName}
+1>          bin\ (TaskId:20)
+1>  Task Parameter:
+1>      AllowedAssemblyExtensions=
+1>          .winmd
+1>          .dll
+1>          .exe (TaskId:20)
+1>  Task Parameter:
+1>      AllowedRelatedFileExtensions=
+1>          .pdb
+1>          .xml
+1>          .pri (TaskId:20)
+1>  Task Parameter:TargetProcessorArchitecture=msil (TaskId:20)
+1>  Task Parameter:AppConfigFile=Web.config (TaskId:20)
+1>  Task Parameter:AutoUnify=False (TaskId:20)
+1>  Task Parameter:FindSatellites=True (TaskId:20)
+1>  Task Parameter:FindSerializationAssemblies=True (TaskId:20)
+1>  Task Parameter:FindRelatedFiles=True (TaskId:20)
+1>  Task Parameter:Silent=False (TaskId:20)
+1>  Task Parameter:TargetFrameworkVersion=v4.5.2 (TaskId:20)
+1>  Task Parameter:TargetFrameworkMoniker=.NETFramework,Version=v4.5.2 (TaskId:20)
+1>  Task Parameter:TargetFrameworkMonikerDisplayName=.NET Framework 4.5.2 (TaskId:20)
+1>  Task Parameter:TargetedRuntimeVersion=v4.0.30319 (TaskId:20)
+1>  Task Parameter:StateFile=obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:20)
+1>  Task Parameter:FullTargetFrameworkSubsetNames=Full (TaskId:20)
+1>  Task Parameter:FullFrameworkFolders=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\ (TaskId:20)
+1>  Task Parameter:WarnOrErrorOnTargetArchitectureMismatch=Warning (TaskId:20)
+1>  TargetFrameworkMoniker: (TaskId:20)
+1>      .NETFramework,Version=v4.5.2 (TaskId:20)
+1>  TargetFrameworkMonikerDisplayName: (TaskId:20)
+1>      .NET Framework 4.5.2 (TaskId:20)
+1>  TargetedRuntimeVersion: (TaskId:20)
+1>      v4.0.30319 (TaskId:20)
+1>  Assemblies: (TaskId:20)
+1>      System.Core (TaskId:20)
+1>  AssemblyFiles: (TaskId:20)
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll (TaskId:20)
+1>  CandidateAssemblyFiles: (TaskId:20)
+1>  TargetFrameworkDirectories: (TaskId:20)
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\ (TaskId:20)
+1>  InstalledAssemblyTables: (TaskId:20)
+1>  IgnoreInstalledAssemblyTable: (TaskId:20)
+1>      False (TaskId:20)
+1>  SearchPaths: (TaskId:20)
+1>      {CandidateAssemblyFiles} (TaskId:20)
+1>      {HintPathFromItem} (TaskId:20)
+1>      {TargetFrameworkDirectory} (TaskId:20)
+1>      {Registry:Software\Microsoft\.NETFramework,v4.5.2,AssemblyFoldersEx} (TaskId:20)
+1>      {AssemblyFolders} (TaskId:20)
+1>      {GAC} (TaskId:20)
+1>      {RawFileName} (TaskId:20)
+1>      bin\ (TaskId:20)
+1>  AllowedAssemblyExtensions: (TaskId:20)
+1>      .winmd (TaskId:20)
+1>      .dll (TaskId:20)
+1>      .exe (TaskId:20)
+1>  AllowedRelatedFileExtensions: (TaskId:20)
+1>      .pdb (TaskId:20)
+1>      .xml (TaskId:20)
+1>      .pri (TaskId:20)
+1>  AppConfigFile: (TaskId:20)
+1>      Web.config (TaskId:20)
+1>  AutoUnify: (TaskId:20)
+1>      False (TaskId:20)
+1>  CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:20)
+1>      True (TaskId:20)
+1>  FindDependencies: (TaskId:20)
+1>      True (TaskId:20)
+1>  TargetProcessorArchitecture: (TaskId:20)
+1>      msil (TaskId:20)
+1>  StateFile: (TaskId:20)
+1>      obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:20)
+1>  InstalledAssemblySubsetTables: (TaskId:20)
+1>  IgnoreInstalledAssemblySubsetTable: (TaskId:20)
+1>      False (TaskId:20)
+1>  TargetFrameworkSubsets: (TaskId:20)
+1>  FullTargetFrameworkSubsetNames: (TaskId:20)
+1>      Full (TaskId:20)
+1>  ProfileName: (TaskId:20)
+1>       (TaskId:20)
+1>  FullFrameworkFolders: (TaskId:20)
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\ (TaskId:20)
+1>  LatestTargetFrameworkDirectories: (TaskId:20)
+1>  ProfileTablesLocation: (TaskId:20)
+1>  Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:20)
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll". (TaskId:20)
+1>      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll". (TaskId:20)
+1>      This reference is not "CopyLocal" because it's in a Frameworks directory. (TaskId:20)
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:20)
+1>  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:20)
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll". (TaskId:20)
+1>      Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:20)
+1>          For SearchPath "{TargetFrameworkDirectory}". (TaskId:20)
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.winmd", but it didn't exist. (TaskId:20)
+1>      This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:20)
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:20)
+1>  Output Item(s): 
+1>      ReferencePath=
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  OriginalItemSpec=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  Version=4.0.0.0
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  Implicit=true
+1>                  OriginalItemSpec=System.Core
+1>                  Redist=Microsoft-Windows-CLRCoreComp.4.5.2
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom={TargetFrameworkDirectory}
+1>                  Version=4.0.0.0 (TaskId:20)
+1>  Output Item(s): 
+1>      _ResolveAssemblyReferenceResolvedFiles=
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  OriginalItemSpec=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  Version=4.0.0.0
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  Implicit=true
+1>                  OriginalItemSpec=System.Core
+1>                  Redist=Microsoft-Windows-CLRCoreComp.4.5.2
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom={TargetFrameworkDirectory}
+1>                  Version=4.0.0.0 (TaskId:20)
+1>  Output Item(s): FileWrites=obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:20)
+1>  Output Property: DependsOnSystemRuntime=False (TaskId:20)
+1>Done executing task "ResolveAssemblyReference". (TaskId:20)
+1>Done building target "ResolveAssemblyReferences" in project "Ts182HtmlApp.csproj".: (TargetId:30)
+1>Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+1>Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and '' == 'true' and Exists('obj\Debug\Ts182HtmlApp.csproj.Ts182HtmlApp.dll.config')).
+1>Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+1>Target "AfterResolveReferences: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "AfterResolveReferences" in project "Ts182HtmlApp.csproj".: (TargetId:31)
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "ImplicitlyExpandDesignTimeFacades: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResolveReferences" depends on it):
+1>Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll' == 'ImplicitlyExpandDesignTimeFacades').
+1>Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{TargetFrameworkDirectory}' == 'ImplicitlyExpandDesignTimeFacades').
+1>Done building target "ImplicitlyExpandDesignTimeFacades" in project "Ts182HtmlApp.csproj".: (TargetId:32)
+1>Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+1>Target "ResolveReferences: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CoreBuild" depends on it):
+1>Done building target "ResolveReferences" in project "Ts182HtmlApp.csproj".: (TargetId:33)
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('project.lock.json')).
+1>Target "ValidationExtension: (TargetId:34)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Added Item(s): 
+1>    XamlBuildTaskTypeInspectionExtensionName=
+1>        Microsoft.Activities.Build.Validation.ValidationBuildExtension
+1>                AssemblyName=Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+1>                Visible=false
+1>Done building target "ValidationExtension" in project "Ts182HtmlApp.csproj".: (TargetId:34)
+1>Target "ExpressionBuildExtension: (TargetId:35)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Added Item(s): 
+1>    XamlBuildTaskTypeInspectionExtensionName=
+1>        Microsoft.Activities.Build.Expressions.ExpressionsBuildExtension
+1>                AssemblyName=Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+1>                Visible=false
+1>Done building target "ExpressionBuildExtension" in project "Ts182HtmlApp.csproj".: (TargetId:35)
+1>Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "AddDeferredValidationErrorsFileToFileWrites" skipped, due to false condition; (Exists('$(DeferredValidationErrorsFileName)')) was evaluated as (Exists('obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')).
+1>Target "ReportValidationBuildExtensionErrors" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+1>Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+1>Target "AfterMarkupCompilePass1: (TargetId:36)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Done building target "AfterMarkupCompilePass1" in project "Ts182HtmlApp.csproj".: (TargetId:36)
+1>Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "FileClassification: (TargetId:37)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Done building target "FileClassification" in project "Ts182HtmlApp.csproj".: (TargetId:37)
+1>Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+1>Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "AssignTargetPaths: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResourceNames" depends on it):
+1>Task "AssignTargetPath" (TaskId:21)
+1>  Task Parameter:RootFolder=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:21)
+1>Done executing task "AssignTargetPath". (TaskId:21)
+1>Task "AssignTargetPath" (TaskId:22)
+1>  Task Parameter:
+1>      Files=
+1>          app.css
+1>          index.html
+1>          web.config
+1>          packages.config
+1>          tslint.json
+1>          tsd.json
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map (TaskId:22)
+1>  Task Parameter:RootFolder=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:22)
+1>  Output Item(s): 
+1>      ContentWithTargetPath=
+1>          app.css
+1>                  OriginalItemSpec=app.css
+1>                  TargetPath=app.css
+1>          index.html
+1>                  OriginalItemSpec=index.html
+1>                  TargetPath=index.html
+1>          web.config
+1>                  OriginalItemSpec=web.config
+1>                  TargetPath=web.config
+1>          packages.config
+1>                  OriginalItemSpec=packages.config
+1>                  TargetPath=packages.config
+1>          tslint.json
+1>                  OriginalItemSpec=tslint.json
+1>                  TargetPath=tslint.json
+1>          tsd.json
+1>                  OriginalItemSpec=tsd.json
+1>                  TargetPath=tsd.json
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  TargetPath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  TargetPath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  TargetPath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map
+1>                  OriginalItemSpec=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  TargetPath=SampleSfc.js.map (TaskId:22)
+1>Done executing task "AssignTargetPath". (TaskId:22)
+1>Task "AssignTargetPath" (TaskId:23)
+1>  Task Parameter:
+1>      Files=
+1>          web.Debug.config
+1>                  DependentUpon=web.config
+1>          web.Release.config
+1>                  DependentUpon=web.config (TaskId:23)
+1>  Task Parameter:RootFolder=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:23)
+1>  Output Item(s): 
+1>      _NoneWithTargetPath=
+1>          web.Debug.config
+1>                  DependentUpon=web.config
+1>                  OriginalItemSpec=web.Debug.config
+1>                  TargetPath=web.Debug.config
+1>          web.Release.config
+1>                  DependentUpon=web.config
+1>                  OriginalItemSpec=web.Release.config
+1>                  TargetPath=web.Release.config (TaskId:23)
+1>Done executing task "AssignTargetPath". (TaskId:23)
+1>Task "AssignTargetPath" (TaskId:24)
+1>  Task Parameter:RootFolder=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:24)
+1>Done executing task "AssignTargetPath". (TaskId:24)
+1>Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+1>Done building target "AssignTargetPaths" in project "Ts182HtmlApp.csproj".: (TargetId:38)
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResourceNames" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignCulture" (TaskId:25)
+1>Done executing task "AssignCulture". (TaskId:25)
+1>Done building target "SplitResourcesByCulture" in project "Ts182HtmlApp.csproj".: (TargetId:39)
+1>Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "CreateCustomManifestResourceNames: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResourceNames" depends on it):
+1>Done building target "CreateCustomManifestResourceNames" in project "Ts182HtmlApp.csproj".: (TargetId:40)
+1>Target "PrepareResourceNames: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Done building target "PrepareResourceNames" in project "Ts182HtmlApp.csproj".: (TargetId:41)
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture" skipped. Previously built successfully.
+1>Target "BeforeResGen: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResGen" depends on it):
+1>Done building target "BeforeResGen" in project "Ts182HtmlApp.csproj".: (TargetId:42)
+1>Target "CoreResGen: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResGen" depends on it):
+1>Set Property: GenerateResourceMSBuildArchitecture=CurrentArchitecture
+1>Set Property: ResgenToolPath=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\
+1>Set Property: GenerateResourceMSBuildRuntime=CurrentRuntime
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' != 'CLR2').
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' == 'CLR2').
+1>Done building target "CoreResGen" in project "Ts182HtmlApp.csproj".: (TargetId:43)
+1>Target "AfterResGen: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "ResGen" depends on it):
+1>Done building target "AfterResGen" in project "Ts182HtmlApp.csproj".: (TargetId:44)
+1>Target "ResGen: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "PrepareResources" depends on it):
+1>Done building target "ResGen" in project "Ts182HtmlApp.csproj".: (TargetId:45)
+1>Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+1>Target "PrepareResources: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CoreBuild" depends on it):
+1>Done building target "PrepareResources" in project "Ts182HtmlApp.csproj".: (TargetId:46)
+1>Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+1>Target "PreComputeCompileTypeScript" skipped. Previously built successfully.
+1>Target "CompileTypeScript: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TypeScript\Microsoft.TypeScript.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "Compile" depends on it):
+1>Building target "CompileTypeScript" completely.
+1>Output file "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js" does not exist.
+1>Task "VsTsc" (TaskId:26)
+1>  Task Parameter:ToolPath=C:\Program Files (x86)\Microsoft SDKs\TypeScript (TaskId:26)
+1>  Task Parameter:ToolExe=tsc.exe (TaskId:26)
+1>  Task Parameter:Configurations= --noImplicitAny --jsx React --sourcemap --target ES6 --locale en-US (TaskId:26)
+1>  Task Parameter:
+1>      FullPathsToFiles=
+1>          app.tsx
+1>          SampleSfc.tsx
+1>          typings\react\react-addons-create-fragment.d.ts
+1>          typings\react\react-addons-css-transition-group.d.ts
+1>          typings\react\react-addons-linked-state-mixin.d.ts
+1>          typings\react\react-addons-perf.d.ts
+1>          typings\react\react-addons-pure-render-mixin.d.ts
+1>          typings\react\react-addons-test-utils.d.ts
+1>          typings\react\react-addons-transition-group.d.ts
+1>          typings\react\react-addons-update.d.ts
+1>          typings\react\react-dom.d.ts
+1>          typings\react\react-global.d.ts
+1>          typings\react\react.d.ts
+1>          typings\tsd.d.ts (TaskId:26)
+1>  Task Parameter:YieldDuringToolExecution=True (TaskId:26)
+1>  Task Parameter:ProjectDir=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\ (TaskId:26)
+1>  Task Parameter:ToolsVersion=1.8 (TaskId:26)
+1>  Task Parameter:TypeScriptCompileBlocked=False (TaskId:26)
+1>  C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.7\tsc.exe  --noImplicitAny --jsx React --sourcemap --target ES6 --locale en-US "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.tsx" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.tsx" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-create-fragment.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-css-transition-group.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-linked-state-mixin.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-perf.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-pure-render-mixin.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-test-utils.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-transition-group.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-addons-update.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-dom.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react-global.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\react\react.d.ts" "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\typings\tsd.d.ts" (TaskId:26)
+1>D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.tsx(3,23): error TS2605: Build: JSX element type 'Element' is not a constructor function for JSX elements.
+1>   (TaskId:26)
+1>    Property 'render' is missing in type 'Element'. (TaskId:26)
+1>   (TaskId:26)
+1>  The command exited with code 2. (TaskId:26)
+1>  Output Item(s): 
+1>      GeneratedJavascript=
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js
+1>                  DestinationRelativePath=app.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\app.js.map
+1>                  DestinationRelativePath=app.js.map
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js
+1>                  DestinationRelativePath=SampleSfc.js
+1>          D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\SampleSfc.js.map
+1>                  DestinationRelativePath=SampleSfc.js.map (TaskId:26)
+1>Done executing task "VsTsc" -- FAILED. (TaskId:26)
+1>Done building target "CompileTypeScript" in project "Ts182HtmlApp.csproj" -- FAILED.: (TargetId:47)
+1>Target "_CheckForCompileOutputs: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "_CleanGetCurrentAndPriorFileWrites" depends on it):
+1>Set Property: _DocumentationFileProduced=false
+1>Set Property: _DebugSymbolsProduced=false
+1>Done building target "_CheckForCompileOutputs" in project "Ts182HtmlApp.csproj".: (TargetId:48)
+1>Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "_CleanRecordFileWrites" depends on it):
+1>Task "ReadLinesFromFile" (TaskId:27)
+1>  Task Parameter:File=obj\Debug\Ts182HtmlApp.csproj.FileListAbsolute.txt (TaskId:27)
+1>Done executing task "ReadLinesFromFile". (TaskId:27)
+1>Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ConvertToAbsolutePath" (TaskId:28)
+1>  Task Parameter:
+1>      Paths=
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  OriginalItemSpec=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  Version=4.0.0.0
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  Implicit=true
+1>                  OriginalItemSpec=System.Core
+1>                  Redist=Microsoft-Windows-CLRCoreComp.4.5.2
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom={TargetFrameworkDirectory}
+1>                  Version=4.0.0.0 (TaskId:28)
+1>  Output Item(s): 
+1>      _ResolveAssemblyReferenceResolvedFilesAbsolute=
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  OriginalItemSpec=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>                  Version=4.0.0.0
+1>          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+1>                  CopyLocal=false
+1>                  FrameworkFile=true
+1>                  FusionName=System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+1>                  ImageRuntime=v4.0.30319
+1>                  Implicit=true
+1>                  OriginalItemSpec=System.Core
+1>                  Redist=Microsoft-Windows-CLRCoreComp.4.5.2
+1>                  ReferenceSourceTarget=ResolveAssemblyReference
+1>                  ResolvedFrom={TargetFrameworkDirectory}
+1>                  Version=4.0.0.0 (TaskId:28)
+1>Done executing task "ConvertToAbsolutePath". (TaskId:28)
+1>Task "FindUnderPath" (TaskId:29)
+1>  Task Parameter:Path=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp (TaskId:29)
+1>  Task Parameter:UpdateToAbsolutePaths=True (TaskId:29)
+1>  Comparison path is "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp". (TaskId:29)
+1>Done executing task "FindUnderPath". (TaskId:29)
+1>Task "FindUnderPath" (TaskId:30)
+1>  Task Parameter:Path=bin\ (TaskId:30)
+1>  Task Parameter:Files=obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:30)
+1>  Task Parameter:UpdateToAbsolutePaths=True (TaskId:30)
+1>  Comparison path is "bin\". (TaskId:30)
+1>Done executing task "FindUnderPath". (TaskId:30)
+1>Task "FindUnderPath" (TaskId:31)
+1>  Task Parameter:Path=obj\Debug\ (TaskId:31)
+1>  Task Parameter:Files=obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:31)
+1>  Task Parameter:UpdateToAbsolutePaths=True (TaskId:31)
+1>  Comparison path is "obj\Debug\". (TaskId:31)
+1>  Output Item(s): _CleanCurrentFileWritesInIntermediate=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:31)
+1>Done executing task "FindUnderPath". (TaskId:31)
+1>Added Item(s): _CleanCurrentFileWritesWithNoReferences=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache
+1>Task "RemoveDuplicates" (TaskId:32)
+1>  Task Parameter:Inputs=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:32)
+1>  Output Item(s): _CleanCurrentFileWrites=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:32)
+1>Done executing task "RemoveDuplicates". (TaskId:32)
+1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "Ts182HtmlApp.csproj".: (TargetId:49)
+1>Target "_CleanRecordFileWrites: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj" (target "CoreBuild" depends on it):
+1>Task "RemoveDuplicates" (TaskId:33)
+1>  Task Parameter:Inputs=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:33)
+1>  Output Item(s): _CleanUniqueFileWrites=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:33)
+1>Done executing task "RemoveDuplicates". (TaskId:33)
+1>Task "MakeDir" (TaskId:34)
+1>  Task Parameter:Directories=obj\Debug\ (TaskId:34)
+1>Done executing task "MakeDir". (TaskId:34)
+1>Task "WriteLinesToFile" (TaskId:35)
+1>  Task Parameter:File=obj\Debug\Ts182HtmlApp.csproj.FileListAbsolute.txt (TaskId:35)
+1>  Task Parameter:Lines=D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache (TaskId:35)
+1>  Task Parameter:Overwrite=True (TaskId:35)
+1>Done executing task "WriteLinesToFile". (TaskId:35)
+1>Done building target "_CleanRecordFileWrites" in project "Ts182HtmlApp.csproj".: (TargetId:50)
+1>
+1>Project Performance Summary:
+1>     1959 ms  D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\Ts182HtmlApp.csproj   1 calls
+1>               1959 ms  Rebuild                                    1 calls
+1>
+1>Target Performance Summary:
+1>        0 ms  BeforeBuild                                1 calls
+1>        0 ms  BuildOnlySettings                          1 calls
+1>        0 ms  CreateCustomManifestResourceNames          1 calls
+1>        0 ms  BeforeRebuild                              1 calls
+1>        0 ms  ValidationExtension                        1 calls
+1>        0 ms  BeforeResGen                               1 calls
+1>        0 ms  ExpressionBuildExtension                   1 calls
+1>        0 ms  GetFrameworkPaths                          1 calls
+1>        0 ms  ResolveReferences                          1 calls
+1>        0 ms  PrepareResources                           1 calls
+1>        0 ms  GetInstalledSDKLocations                   1 calls
+1>        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+1>        0 ms  CleanWebsitesWPPAllFilesInSingleFolder     1 calls
+1>        0 ms  AfterResGen                                1 calls
+1>        0 ms  AfterResolveReferences                     1 calls
+1>        0 ms  CleanPublishFolder                         1 calls
+1>        0 ms  PrepareResourceNames                       1 calls
+1>        0 ms  _CheckForCompileOutputs                    1 calls
+1>        0 ms  BeforeClean                                1 calls
+1>        0 ms  ResGen                                     1 calls
+1>        0 ms  CleanReferencedProjects                    1 calls
+1>        0 ms  Clean                                      1 calls
+1>        0 ms  ExpandSDKReferences                        1 calls
+1>        0 ms  BeforeResolveReferences                    1 calls
+1>        0 ms  FileClassification                         1 calls
+1>        0 ms  AfterMarkupCompilePass1                    1 calls
+1>        0 ms  ImplicitlyExpandDesignTimeFacades          1 calls
+1>        0 ms  AfterClean                                 1 calls
+1>        1 ms  CleanXsdCodeGen                            1 calls
+1>        1 ms  ResolveSDKReferences                       1 calls
+1>        1 ms  ResolveProjectReferences                   1 calls
+1>        1 ms  GenerateMsDeployManifestSettings           1 calls
+1>        1 ms  PrepareForBuild                            1 calls
+1>        1 ms  CleanWebPublishPipelineIntermediateOutput   1 calls
+1>        1 ms  CoreResGen                                 1 calls
+1>        2 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+1>        2 ms  SplitResourcesByCulture                    1 calls
+1>        2 ms  CleanWebsitesPackage                       1 calls
+1>        2 ms  AssignTargetPaths                          1 calls
+1>        2 ms  AssignProjectConfiguration                 1 calls
+1>        4 ms  GetReferenceAssemblyPaths                  1 calls
+1>        4 ms  TypeScriptClean                            1 calls
+1>        6 ms  CoreClean                                  1 calls
+1>       11 ms  CleanWebsitesPackageCore                   1 calls
+1>       14 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+1>       17 ms  PreComputeCompileTypeScript                1 calls
+1>       25 ms  ResolveAssemblyReferences                  1 calls
+1>       29 ms  _CleanRecordFileWrites                     1 calls
+1>     1822 ms  CompileTypeScript                          1 calls
+1>
+1>Task Performance Summary:
+1>        0 ms  AssignCulture                              1 calls
+1>        0 ms  ConvertToAbsolutePath                      1 calls
+1>        1 ms  RemoveDuplicates                           3 calls
+1>        1 ms  ReadLinesFromFile                          2 calls
+1>        1 ms  AssignProjectConfiguration                 1 calls
+1>        1 ms  GetReferenceAssemblyPaths                  1 calls
+1>        1 ms  CheckPathAttributes                        1 calls
+1>        1 ms  MakeDir                                    3 calls
+1>        2 ms  Message                                    2 calls
+1>        2 ms  FindUnderPath                              5 calls
+1>        4 ms  AssignTargetPath                           5 calls
+1>        6 ms  Delete                                     4 calls
+1>       25 ms  ResolveAssemblyReference                   1 calls
+1>       29 ms  WriteLinesToFile                           2 calls
+1>     1834 ms  VsTsc                                      2 calls
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:01.95
+========== Rebuild All: 0 succeeded, 1 failed, 0 skipped ==========
