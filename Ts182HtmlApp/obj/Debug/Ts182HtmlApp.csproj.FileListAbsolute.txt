@@ -1,1 +1,5 @@
-D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.csprojResolveAssemblyReference.cache
+D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\Ts182HtmlApp.dll.config
+D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\Ts182HtmlApp.dll
+D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\bin\Ts182HtmlApp.pdb
+D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.dll
+D:\Ts\Ts18Vs2015Issue\Ts182HtmlApp\obj\Debug\Ts182HtmlApp.pdb
